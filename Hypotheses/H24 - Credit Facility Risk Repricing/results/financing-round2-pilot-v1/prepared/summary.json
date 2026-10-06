@@ -1,0 +1,95 @@
+{
+  "scope": "pilot",
+  "source_id": "dd286e7aa9fe7593d418d42737ccda1113986e42d48366373db840c167abc371",
+  "filings": 3509,
+  "anchors": 228,
+  "coverage": [
+    {
+      "study": "H23",
+      "year": 2022,
+      "filings": 137,
+      "issuers": 57,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H23",
+      "year": 2023,
+      "filings": 115,
+      "issuers": 60,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H23",
+      "year": 2024,
+      "filings": 115,
+      "issuers": 50,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H23",
+      "year": 2025,
+      "filings": 159,
+      "issuers": 74,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H24",
+      "year": 2022,
+      "filings": 45,
+      "issuers": 31,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H24",
+      "year": 2023,
+      "filings": 48,
+      "issuers": 32,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H24",
+      "year": 2024,
+      "filings": 26,
+      "issuers": 22,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H24",
+      "year": 2025,
+      "filings": 35,
+      "issuers": 30,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H25",
+      "year": 2022,
+      "filings": 56,
+      "issuers": 39,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H25",
+      "year": 2023,
+      "filings": 61,
+      "issuers": 41,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H25",
+      "year": 2024,
+      "filings": 48,
+      "issuers": 33,
+      "wording_exclusions": 0
+    },
+    {
+      "study": "H25",
+      "year": 2025,
+      "filings": 81,
+      "issuers": 56,
+      "wording_exclusions": 0
+    }
+  ],
+  "source_complete": true,
+  "clock_assumed": true,
+  "placebo_maps": 199
+}

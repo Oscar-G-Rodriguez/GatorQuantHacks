@@ -1,0 +1,5 @@
+reason,status,study,task,variant
+,completed,H23,0,primary
+,completed,H24,1,primary
+,completed,H25,2,primary
+,completed,H23,3,double_cost

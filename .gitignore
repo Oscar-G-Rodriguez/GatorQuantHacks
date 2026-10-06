@@ -1,0 +1,40 @@
+# Credentials and local configuration, across every hypothesis
+.env
+.env.*
+!.env.example
+
+# Local environments and build/cache output
+.venv
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info
+build/
+dist/
+wheels/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+cache/
+**/data/raw/
+**/data/cache/
+**/discovery-results/
+**/transfer-bundles/
+
+# Logs and incidental generated reports; save permitted evidence deliberately
+*.log
+*.log.*
+*_report.html
+backtest_report*.html
+# Keep this exact upstream sample as provenance, not as research evidence
+!**/examples/backtest/backtest_report_lwc.html
+
+.DS_Store
+Thumbs.db
+
+# Local PDF review renders and packaged Git snapshots; retain the final note deliberately.
+/tmp/pdfs/
+/tmp/public-release/
+/output/reproducibility/
+/output/pdf/qa/

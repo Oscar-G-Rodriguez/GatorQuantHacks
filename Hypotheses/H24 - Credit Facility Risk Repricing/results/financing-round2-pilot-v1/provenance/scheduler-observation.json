@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-10-04T14:44:49.693056+00:00",
+  "observation_source": "Authenticated Open OnDemand terminal sacct; observed COMPLETED/0:0 states before this record",
+  "jobs": [
+    {
+      "job_id": "44693324_0",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:00:13"
+    },
+    {
+      "job_id": "44693324_1",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:00:13"
+    },
+    {
+      "job_id": "44693324_2",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:00:14"
+    },
+    {
+      "job_id": "44693324_3",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:00:13"
+    },
+    {
+      "job_id": "44693325",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:01:45",
+      "max_rss": "122088K"
+    },
+    {
+      "job_id": "44693326",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:00:08",
+      "max_rss": "1052K"
+    },
+    {
+      "job_id": "44693327",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "00:00:06",
+      "max_rss": "1284K"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "study": "H22",
+  "phase": "exposed development",
+  "registration_commit": "8c3e4e43bceed5ffc0b170c7aa6fcfab2a2ed5a8",
+  "code_commit": "f6fe1d1c526d4c693f1fd28295d7b5e02e32bc0f",
+  "manifest_id": "6a5e82aa93607a3d4e79444418fb65a23c54b460377c3b92ae4c8f590a85c0a7",
+  "source_id": "57d7bc2f5437b4a5c4a0edc0c052234d78bcd162d88b35b9a8ab5ce097101249",
+  "acquisition_complete": true,
+  "primary_completed_pairs": 0,
+  "primary_issuers": 0,
+  "initiated_incomplete_primary_diagnostics": 0,
+  "primary_mean_increment": null,
+  "primary_mean_overlay_increment": null,
+  "planned_tasks": 24,
+  "completed_tasks": 24,
+  "trial_cells": 384,
+  "quote_supported_trade_records": 0,
+  "synthetic_null_status": "fail",
+  "verdict": "INCONCLUSIVE development evidence",
+  "independent_oos": "unavailable; all study dates previously exposed",
+  "fill_model": "assumed daily closes with declared friction; quote subset separately reported",
+  "limitations": [
+    "No independent confirmation",
+    "Historical vendor delivery clock assumed",
+    "Surviving static universe",
+    "Completion text rule needs human evidence audit",
+    "Daily option closes do not establish executable fills",
+    "Incomplete initiated outcomes prevent a full-cohort claim",
+    "Crossed bootstrap is approximate and does not correct prior adaptive search"
+  ]
+}

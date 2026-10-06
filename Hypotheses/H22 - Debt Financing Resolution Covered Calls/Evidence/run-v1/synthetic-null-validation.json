@@ -1,0 +1,10 @@
+{
+  "replicas": 100,
+  "resamples_per_replica": 999,
+  "family_size": 2,
+  "nominal_family_error": 0.05,
+  "rejections": 12,
+  "false_positive_fraction": 0.12,
+  "status": "fail",
+  "criterion": "At most10 rejections among100 known-null replicates; simulation check is not a proof of bootstrap validity"
+}

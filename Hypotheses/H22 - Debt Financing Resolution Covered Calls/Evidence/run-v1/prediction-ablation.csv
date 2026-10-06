@@ -1,0 +1,7 @@
+method,status,target,train,validation,year
+ridge_prediction_ablation,insufficient_support,combined,0,0,2023
+ridge_prediction_ablation,insufficient_support,overlay,0,0,2023
+ridge_prediction_ablation,insufficient_support,combined,0,0,2024
+ridge_prediction_ablation,insufficient_support,overlay,0,0,2024
+ridge_prediction_ablation,insufficient_support,combined,0,0,2025
+ridge_prediction_ablation,insufficient_support,overlay,0,0,2025

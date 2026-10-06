@@ -1,0 +1,22 @@
+[
+  {
+    "task": 0,
+    "study": "H23",
+    "variant": "primary"
+  },
+  {
+    "task": 1,
+    "study": "H24",
+    "variant": "primary"
+  },
+  {
+    "task": 2,
+    "study": "H25",
+    "variant": "primary"
+  },
+  {
+    "task": 3,
+    "study": "H23",
+    "variant": "double_cost"
+  }
+]

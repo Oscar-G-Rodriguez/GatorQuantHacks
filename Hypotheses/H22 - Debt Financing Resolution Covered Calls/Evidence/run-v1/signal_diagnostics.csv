@@ -1,0 +1,9 @@
+event_status,issuers,mean_call_proxy_change_increment,mean_covered_call_increment,mean_overlay_increment,method,pairs,status,year
+completed,0,,,,mechanism_year,0,insufficient_support,2022
+planned,0,,,,mechanism_year,0,insufficient_support,2022
+completed,0,,,,mechanism_year,0,insufficient_support,2023
+planned,0,,,,mechanism_year,0,insufficient_support,2023
+completed,0,,,,mechanism_year,0,insufficient_support,2024
+planned,0,,,,mechanism_year,0,insufficient_support,2024
+completed,0,,,,mechanism_year,0,insufficient_support,2025
+planned,1,0.6518302704317944,0.04314912403608336,-0.02122826470489579,mechanism_year,2,insufficient_support,2025

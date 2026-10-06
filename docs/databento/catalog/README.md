@@ -1,0 +1,742 @@
+# Complete documentation catalog
+
+Open the task guide first, then select the specific cards you need. Cards contain original implementation guidance, factual parameter/field inventories where available, and the official source. Chapter routes may be navigation-only. Historical release cards are migration pointers, not descriptions of the current API.
+
+Search this file or `coverage.json` for an endpoint, dataset, schema, symbol type, tutorial, or version.
+
+## api-reference-historical (58 routes)
+
+- [API reference - Historical](api-reference-historical/api-reference-historical-ed62ea50/README.md) — `api-reference-historical`
+- [Basics](api-reference-historical/basics-ad68e305/README.md) — `api-reference-historical/basics`
+- [Authentication](api-reference-historical/authentication-66b9445b/README.md) — `api-reference-historical/basics/authentication`
+- [Compression](api-reference-historical/compression-1cd11cb0/README.md) — `api-reference-historical/basics/compression`
+- [Datasets](api-reference-historical/datasets-43b05b65/README.md) — `api-reference-historical/basics/datasets`
+- [Dates and times](api-reference-historical/dates-and-times-743086a5/README.md) — `api-reference-historical/basics/dates-and-times`
+- [Encodings](api-reference-historical/encodings-5e7b29f2/README.md) — `api-reference-historical/basics/encodings`
+- [Errors](api-reference-historical/errors-3c35fc2c/README.md) — `api-reference-historical/basics/errors`
+- [Metered pricing](api-reference-historical/metered-pricing-079e22a1/README.md) — `api-reference-historical/basics/metered-pricing`
+- [Overview](api-reference-historical/overview-93497e59/README.md) — `api-reference-historical/basics/overview`
+- [Rate limits](api-reference-historical/rate-limits-a9fb7739/README.md) — `api-reference-historical/basics/rate-limits`
+- [Schemas and conventions](api-reference-historical/schemas-and-conventions-cb6460e1/README.md) — `api-reference-historical/basics/schemas-and-conventions`
+- [Size limits](api-reference-historical/size-limits-c505bfb9/README.md) — `api-reference-historical/basics/size-limits`
+- [Symbology](api-reference-historical/symbology-1f9bde44/README.md) — `api-reference-historical/basics/symbology`
+- [Versioning](api-reference-historical/versioning-c6950618/README.md) — `api-reference-historical/basics/versioning`
+- [Batch downloads](api-reference-historical/batch-95f829f5/README.md) — `api-reference-historical/batch`
+- [Historical.batch.download](api-reference-historical/batch-download-563249c3/README.md) — `api-reference-historical/batch/batch-download`
+- [Historical.batch.download_async](api-reference-historical/batch-download-async-eb0afe45/README.md) — `api-reference-historical/batch/batch-download-async`
+- [Historical.batch.get_job_details](api-reference-historical/batch-get-job-details-5f1ec7c3/README.md) — `api-reference-historical/batch/batch-get-job-details`
+- [Historical.batch.list_files](api-reference-historical/batch-list-files-313d7b56/README.md) — `api-reference-historical/batch/batch-list-files`
+- [Historical.batch.list_jobs](api-reference-historical/batch-list-jobs-050e8764/README.md) — `api-reference-historical/batch/batch-list-jobs`
+- [Historical.batch.submit_job](api-reference-historical/batch-submit-job-3ad059d9/README.md) — `api-reference-historical/batch/batch-submit-job`
+- [Client](api-reference-historical/client-ec343c59/README.md) — `api-reference-historical/client`
+- [Historical](api-reference-historical/historical-ed8e8198/README.md) — `api-reference-historical/client/historical`
+- [Helpers](api-reference-historical/helpers-a19300d8/README.md) — `api-reference-historical/helpers`
+- [DBNStore](api-reference-historical/dbn-store-846094f3/README.md) — `api-reference-historical/helpers/dbn-store`
+- [DBNStore.from_bytes](api-reference-historical/dbn-store-from-bytes-1de6a2b9/README.md) — `api-reference-historical/helpers/dbn-store-from-bytes`
+- [DBNStore.from_file](api-reference-historical/dbn-store-from-file-fd10e571/README.md) — `api-reference-historical/helpers/dbn-store-from-file`
+- [DBNStore.insert_symbology_json](api-reference-historical/dbn-store-insert-symbology-json-1290a477/README.md) — `api-reference-historical/helpers/dbn-store-insert-symbology-json`
+- [DBNStore.__iter__](api-reference-historical/dbn-store-iter-5c04d795/README.md) — `api-reference-historical/helpers/dbn-store-iter`
+- [DBNStore.reader](api-reference-historical/dbn-store-reader-80804c07/README.md) — `api-reference-historical/helpers/dbn-store-reader`
+- [DBNStore.replay](api-reference-historical/dbn-store-replay-8673e3fb/README.md) — `api-reference-historical/helpers/dbn-store-replay`
+- [DBNStore.to_csv](api-reference-historical/dbn-store-to-csv-48925c97/README.md) — `api-reference-historical/helpers/dbn-store-to-csv`
+- [DBNStore.to_df](api-reference-historical/dbn-store-to-df-2ae9ffca/README.md) — `api-reference-historical/helpers/dbn-store-to-df`
+- [DBNStore.to_file](api-reference-historical/dbn-store-to-file-5e376778/README.md) — `api-reference-historical/helpers/dbn-store-to-file`
+- [DBNStore.to_json](api-reference-historical/dbn-store-to-json-bb73a2af/README.md) — `api-reference-historical/helpers/dbn-store-to-json`
+- [DBNStore.to_ndarray](api-reference-historical/dbn-store-to-ndarray-0910317d/README.md) — `api-reference-historical/helpers/dbn-store-to-ndarray`
+- [DBNStore.to_parquet](api-reference-historical/dbn-store-to-parquet-e0cf7070/README.md) — `api-reference-historical/helpers/dbn-store-to-parquet`
+- [map_symbols_csv](api-reference-historical/map-symbols-csv-38382f62/README.md) — `api-reference-historical/helpers/map_symbols_csv`
+- [map_symbols_json](api-reference-historical/map-symbols-json-7683e74b/README.md) — `api-reference-historical/helpers/map_symbols_json`
+- [DBNStore.request_full_definitions](api-reference-historical/request-full-definitions-84b5e8ec/README.md) — `api-reference-historical/helpers/request-full-definitions`
+- [DBNStore.request_symbology](api-reference-historical/request-symbology-fee1b019/README.md) — `api-reference-historical/helpers/request-symbology`
+- [Metadata](api-reference-historical/metadata-57468354/README.md) — `api-reference-historical/metadata`
+- [Historical.metadata.get_billable_size](api-reference-historical/metadata-get-billable-size-bef7dbba/README.md) — `api-reference-historical/metadata/metadata-get-billable-size`
+- [Historical.metadata.get_cost](api-reference-historical/metadata-get-cost-ecbd4170/README.md) — `api-reference-historical/metadata/metadata-get-cost`
+- [Historical.metadata.get_dataset_condition](api-reference-historical/metadata-get-dataset-condition-895a0595/README.md) — `api-reference-historical/metadata/metadata-get-dataset-condition`
+- [Historical.metadata.get_dataset_range](api-reference-historical/metadata-get-dataset-range-27a12848/README.md) — `api-reference-historical/metadata/metadata-get-dataset-range`
+- [Historical.metadata.get_record_count](api-reference-historical/metadata-get-record-count-bffb578a/README.md) — `api-reference-historical/metadata/metadata-get-record-count`
+- [Historical.metadata.list_datasets](api-reference-historical/metadata-list-datasets-bef58cd8/README.md) — `api-reference-historical/metadata/metadata-list-datasets`
+- [Historical.metadata.list_fields](api-reference-historical/metadata-list-fields-9d757c50/README.md) — `api-reference-historical/metadata/metadata-list-fields`
+- [Historical.metadata.list_publishers](api-reference-historical/metadata-list-publishers-5be9a682/README.md) — `api-reference-historical/metadata/metadata-list-publishers`
+- [Historical.metadata.list_schemas](api-reference-historical/metadata-list-schemas-7fff736a/README.md) — `api-reference-historical/metadata/metadata-list-schemas`
+- [Historical.metadata.list_unit_prices](api-reference-historical/metadata-list-unit-prices-576b48c5/README.md) — `api-reference-historical/metadata/metadata-list-unit-prices`
+- [Symbology](api-reference-historical/symbology-cb614ed7/README.md) — `api-reference-historical/symbology`
+- [Historical.symbology.resolve](api-reference-historical/symbology-resolve-99998e77/README.md) — `api-reference-historical/symbology/symbology-resolve`
+- [Time series](api-reference-historical/timeseries-b9d038ea/README.md) — `api-reference-historical/timeseries`
+- [Historical.timeseries.get_range](api-reference-historical/timeseries-get-range-3f0d2538/README.md) — `api-reference-historical/timeseries/timeseries-get-range`
+- [Historical.timeseries.get_range_async](api-reference-historical/timeseries-get-range-async-43374d02/README.md) — `api-reference-historical/timeseries/timeseries-get-range-async`
+
+## api-reference-live (34 routes)
+
+- [API reference - Live](api-reference-live/api-reference-live-4563dd8e/README.md) — `api-reference-live`
+- [Basics](api-reference-live/basics-01fe0867/README.md) — `api-reference-live/basics`
+- [Authentication](api-reference-live/authentication-cf3c1859/README.md) — `api-reference-live/basics/authentication`
+- [Compression](api-reference-live/compression-8f3c6acf/README.md) — `api-reference-live/basics/compression`
+- [Connection limits](api-reference-live/connection-limits-bbccc5a1/README.md) — `api-reference-live/basics/connection-limits`
+- [Datasets](api-reference-live/datasets-9a4cd511/README.md) — `api-reference-live/basics/datasets`
+- [Dates and times](api-reference-live/dates-and-times-5a8c7f0c/README.md) — `api-reference-live/basics/dates-and-times`
+- [Error detection](api-reference-live/error-detection-3f900ca9/README.md) — `api-reference-live/basics/error-detection`
+- [Errors](api-reference-live/errors-f4c6ea06/README.md) — `api-reference-live/basics/errors`
+- [Intraday replay](api-reference-live/intraday-replay-ec1d3f79/README.md) — `api-reference-live/basics/intraday-replay`
+- [Snapshot](api-reference-live/live-snapshot-0c9517b1/README.md) — `api-reference-live/basics/live-snapshot`
+- [Maintenance schedule](api-reference-live/maintenance-schedule-c6f7b8aa/README.md) — `api-reference-live/basics/maintenance-schedule`
+- [Overview](api-reference-live/overview-c334dd64/README.md) — `api-reference-live/basics/overview`
+- [Recovering after a disconnection](api-reference-live/recovering-after-a-disconnection-283112a0/README.md) — `api-reference-live/basics/recovering-after-a-disconnection`
+- [Schemas and conventions](api-reference-live/schemas-and-conventions-5f2e6a17/README.md) — `api-reference-live/basics/schemas-and-conventions`
+- [Sessions](api-reference-live/sessions-ee255f0b/README.md) — `api-reference-live/basics/sessions`
+- [Slow reader behavior](api-reference-live/slow-reader-behavior-d09b26fb/README.md) — `api-reference-live/basics/slow-reader-behavior`
+- [Symbology](api-reference-live/symbology-f5e7243b/README.md) — `api-reference-live/basics/symbology`
+- [System messages](api-reference-live/system-messages-3775b988/README.md) — `api-reference-live/basics/system-messages`
+- [Versioning](api-reference-live/versioning-03960181/README.md) — `api-reference-live/basics/versioning`
+- [Client](api-reference-live/client-1dc82a37/README.md) — `api-reference-live/client`
+- [Live.add_callback](api-reference-live/add-callback-ad0743a9/README.md) — `api-reference-live/client/add-callback`
+- [Live.add_reconnect_callback](api-reference-live/add-reconnect-callback-8a0af441/README.md) — `api-reference-live/client/add-reconnect-callback`
+- [Live.add_stream](api-reference-live/add-stream-0df10a32/README.md) — `api-reference-live/client/add-stream`
+- [Live.__aiter__](api-reference-live/aiter-cca2c21e/README.md) — `api-reference-live/client/aiter`
+- [Live.block_for_close](api-reference-live/block-for-close-e5ca659c/README.md) — `api-reference-live/client/block-for-close`
+- [Live.__iter__](api-reference-live/iter-070fb1d0/README.md) — `api-reference-live/client/iter`
+- [Live](api-reference-live/live-99181e7a/README.md) — `api-reference-live/client/live`
+- [LiveBlocking::Subscribe](api-reference-live/live-blocking-subscribe-b1713e5e/README.md) — `api-reference-live/client/live-blocking-subscribe`
+- [Live.start](api-reference-live/start-8f6f0a87/README.md) — `api-reference-live/client/start`
+- [Live.stop](api-reference-live/stop-f015e1b3/README.md) — `api-reference-live/client/stop`
+- [Live.subscribe](api-reference-live/subscribe-058b6d93/README.md) — `api-reference-live/client/subscribe`
+- [Live.terminate](api-reference-live/terminate-6f53c1be/README.md) — `api-reference-live/client/terminate`
+- [Live.wait_for_close](api-reference-live/wait-for-close-4bec082d/README.md) — `api-reference-live/client/wait-for-close`
+
+## api-reference-reference (19 routes)
+
+- [API reference - Reference](api-reference-reference/api-reference-reference-cf790570/README.md) — `api-reference-reference`
+- [Adjustment factors](api-reference-reference/adjustment-factors-6c6439d3/README.md) — `api-reference-reference/adjustment-factors`
+- [Reference.adjustment_factors.get_range](api-reference-reference/adjustment-factors-get-range-7bf63cde/README.md) — `api-reference-reference/adjustment-factors/adjustment-factors-get-range`
+- [Basics](api-reference-reference/basics-fd13e6c1/README.md) — `api-reference-reference/basics`
+- [Authentication](api-reference-reference/authentication-e7a1fa22/README.md) — `api-reference-reference/basics/authentication`
+- [Dates and times](api-reference-reference/dates-and-times-25d45bff/README.md) — `api-reference-reference/basics/dates-and-times`
+- [Errors](api-reference-reference/errors-9a1aac77/README.md) — `api-reference-reference/basics/errors`
+- [Overview](api-reference-reference/overview-814c3e6c/README.md) — `api-reference-reference/basics/overview`
+- [Rate limits](api-reference-reference/rate-limits-a9f2f655/README.md) — `api-reference-reference/basics/rate-limits`
+- [Symbology](api-reference-reference/symbology-bea79d4b/README.md) — `api-reference-reference/basics/symbology`
+- [Client](api-reference-reference/client-f1782582/README.md) — `api-reference-reference/client`
+- [Reference](api-reference-reference/reference-2eed1b30/README.md) — `api-reference-reference/client/reference`
+- [Corporate actions](api-reference-reference/corporate-actions-8fcd9f63/README.md) — `api-reference-reference/corporate-actions`
+- [Reference.corporate_actions.get_range](api-reference-reference/corporate-actions-get-range-2d9be78b/README.md) — `api-reference-reference/corporate-actions/corporate-actions-get-range`
+- [Reference.corporate_actions.list_enums](api-reference-reference/corporate-actions-list-enums-ddf76ac6/README.md) — `api-reference-reference/corporate-actions/corporate-actions-list-enums`
+- [Reference.corporate_actions.list_events](api-reference-reference/corporate-actions-list-events-41714a4e/README.md) — `api-reference-reference/corporate-actions/corporate-actions-list-events`
+- [Security master](api-reference-reference/security-master-fd8b5921/README.md) — `api-reference-reference/security-master`
+- [Reference.security_master.get_last](api-reference-reference/security-master-get-last-b1054228/README.md) — `api-reference-reference/security-master/security-master-get-last`
+- [Reference.security_master.get_range](api-reference-reference/security-master-get-range-290d1573/README.md) — `api-reference-reference/security-master/security-master-get-range`
+
+## architecture (7 routes)
+
+- [Architecture](architecture/architecture-9eda1530/README.md) — `architecture`
+- [Databento architecture](architecture/architecture-diagram-a0b9a3c6/README.md) — `architecture/architecture-diagram`
+- [Dedicated connectivity](architecture/dedicated-connectivity-guide-ad173377/README.md) — `architecture/dedicated-connectivity-guide`
+- [Locations and network connectivity](architecture/locations-network-connectivity-07318bb3/README.md) — `architecture/locations-network-connectivity`
+- [Databento NTP service](architecture/ntp-service-8568ca48/README.md) — `architecture/ntp-service`
+- [Performance optimization](architecture/performance-optimization-7864bdd7/README.md) — `architecture/performance-optimization`
+- [Timestamping](architecture/timestamping-guide-86611f07/README.md) — `architecture/timestamping-guide`
+
+## examples (90 routes)
+
+- [Examples](examples/examples-8a5ff50e/README.md) — `examples`
+- [Adjustment factors](examples/adjustment-factors-0baabb9a/README.md) — `examples/adjustment-factors`
+- [Applying adjustment factors](examples/applying-adjustment-factors-64ffec97/README.md) — `examples/adjustment-factors/applying-adjustment-factors`
+- [Handling multiple stock selections](examples/multiple-adjustment-factors-d6061222/README.md) — `examples/adjustment-factors/multiple-adjustment-factors`
+- [Algorithmic trading](examples/algo-trading-66886e61/README.md) — `examples/algo-trading`
+- [Execution slippage and markouts](examples/execution-slippage-eb69c086/README.md) — `examples/algo-trading/execution-slippage`
+- [A high-frequency liquidity-taking strategy](examples/high-frequency-678eef22/README.md) — `examples/algo-trading/high-frequency`
+- [Matching engine latencies](examples/latency-21d4073d/README.md) — `examples/algo-trading/latency`
+- [Build a real-time stock screener](examples/live-stock-screener-e05b57bd/README.md) — `examples/algo-trading/live-stock-screener`
+- [Build prediction models with machine learning](examples/machine-learning-2a33c683/README.md) — `examples/algo-trading/machine-learning`
+- [Using messaging rates as a proxy for implied volatility](examples/messaging-volatility-abc7c91e/README.md) — upstream placeholder — `examples/algo-trading/messaging-volatility`
+- [Pairs trading based on cointegration](examples/pairs-trading-81701ab9/README.md) — `examples/algo-trading/pairs-trading`
+- [Mean reversion and portfolio optimization](examples/portfolio-optimization-f0de6e91/README.md) — upstream placeholder — `examples/algo-trading/portfolio-optimization`
+- [Historical data](examples/basics-historical-4e53e508/README.md) — `examples/basics-historical`
+- [Benchmark portfolio performance](examples/benchmarks-dfa95468/README.md) — `examples/basics-historical/benchmarks`
+- [Plot a candlestick chart](examples/candlestick-plot-5604f37b/README.md) — `examples/basics-historical/candlestick-plot`
+- [Custom OHLCV bars from trades](examples/custom-ohlcv-4317b65c/README.md) — `examples/basics-historical/custom-ohlcv`
+- [Convert DBN to other encoding formats](examples/encodings-056b8660/README.md) — `examples/basics-historical/encodings`
+- [End-of-day pricing and portfolio valuation](examples/eod-f137ae40/README.md) — `examples/basics-historical/eod`
+- [Market halts, volatility interrupts, and price bands](examples/halts-48eb6309/README.md) — `examples/basics-historical/halts`
+- [Join schemas on instrument ID](examples/joining-schemas-736229d6/README.md) — `examples/basics-historical/joining-schemas`
+- [Best bid, best offer, and midprice](examples/midprice-275ec2b7/README.md) — `examples/basics-historical/midprice`
+- [Resample OHLCV from 1-minute to 5-minute](examples/ohlcv-resampling-e8e2e9ef/README.md) — `examples/basics-historical/ohlcv-resampling`
+- [Programmatic batch downloads](examples/programmatic-batch-download-0f9e55a6/README.md) — `examples/basics-historical/programmatic-batch-download`
+- [Request a large number of symbols](examples/requesting-47d1f20a/README.md) — `examples/basics-historical/requesting`
+- [Calculate VWAP and RSI](examples/technical-indicators-335aec77/README.md) — `examples/basics-historical/technical-indicators`
+- [Live data](examples/basics-live-4c3d18ef/README.md) — `examples/basics-live`
+- [Handle multiple record types](examples/live-dispatch-5005b159/README.md) — `examples/basics-live/live-dispatch`
+- [Estimate Databento feed latency](examples/live-latency-290282b8/README.md) — `examples/basics-live/live-latency`
+- [Compare on-exchange and off-exchange trade volume](examples/live-nasdaq-trf-3f40daa7/README.md) — `examples/basics-live/live-nasdaq-trf`
+- [Subscribe to MBO snapshot](examples/live-snapshot-1bacf698/README.md) — `examples/basics-live/live-snapshot`
+- [Stream live data to a file](examples/live-stream-to-file-9e87853c/README.md) — `examples/basics-live/live-stream-to-file`
+- [Calculate TICK and TRIN indicators](examples/live-tick-trin-fc5f9de5/README.md) — `examples/basics-live/live-tick-trin`
+- [Corporate actions](examples/corporate-actions-5cb21140/README.md) — `examples/corporate-actions`
+- [Dividends](examples/dividends-d3647850/README.md) — partially unfinished upstream — `examples/corporate-actions/dividends`
+- [Mergers and demergers](examples/mergers-and-demergers-165e8270/README.md) — partially unfinished upstream — `examples/corporate-actions/mergers-and-demergers`
+- [New listings](examples/new-listings-fd62b8dc/README.md) — partially unfinished upstream — `examples/corporate-actions/new-listings`
+- [Splits and reverse splits](examples/splits-and-reverse-splits-e0b6b182/README.md) — partially unfinished upstream — `examples/corporate-actions/splits-and-reverse-splits`
+- [Equities](examples/equities-a40ea73c/README.md) — `examples/equities`
+- [Analyze auction imbalance dynamics](examples/auction-imbalance-8995b9ba/README.md) — `examples/equities/auction-imbalance`
+- [Get daily closing prices for equities](examples/closing-prices-3866dcc1/README.md) — `examples/equities/closing-prices`
+- [Calculate synthetic NBBO from prop feeds](examples/consolidated-bbo-5e9b0763/README.md) — `examples/equities/consolidated-bbo`
+- [Equities: Introduction](examples/equities-introduction-bd5f5271/README.md) — `examples/equities/equities-introduction`
+- [Equities: Introduction](examples/finding-an-equities-dataset-7872aada/README.md) — `examples/equities/equities-introduction/finding-an-equities-dataset`
+- [Top pre-market movers](examples/equities-premarket-movers-03138aba/README.md) — `examples/equities/equities-premarket-movers`
+- [Find average spread for a symbol](examples/spread-boxplots-8fb90445/README.md) — `examples/equities/spread-boxplots`
+- [Futures](examples/futures-6ce224ad/README.md) — `examples/futures`
+- [Futures: Introduction](examples/futures-introduction-96a0189c/README.md) — `examples/futures/futures-introduction`
+- [Futures: Introduction](examples/special-conventions-for-futures-on-databento-3c4e9c05/README.md) — `examples/futures/futures-introduction/special-conventions-for-futures-on-databento`
+- [Futures: Introduction](examples/using-instrument-definitions-to-get-tick-size-expiration-and-40a710c7/README.md) — `examples/futures/futures-introduction/using-instrument-definitions-to-get-tick-size-expiration-and-matching-algorithm`
+- [Get options chain for a futures product](examples/futures-product-options-744d862f/README.md) — `examples/futures/futures-product-options`
+- [Volume, open interest, and settlement prices](examples/retrieving-oi-and-settlement-prices-1f91347a/README.md) — `examples/futures/retrieving-oi-and-settlement-prices`
+- [Determine publishing times for statistics](examples/statistics-schedule-56d1a140/README.md) — `examples/futures/statistics-schedule`
+- [Futures trading hours](examples/trading-hours-5168e8bf/README.md) — `examples/futures/trading-hours`
+- [Instrument definitions](examples/instrument-definitions-50a02d58/README.md) — `examples/instrument-definitions`
+- [Computing tick value and contract notional](examples/contract-notional-ef29d65d/README.md) — `examples/instrument-definitions/contract-notional`
+- [Displaying fractional prices](examples/fractional-prices-d837425d/README.md) — `examples/instrument-definitions/fractional-prices`
+- [Finding ICE intercommodity spreads](examples/ice-crack-spreads-029d7df0/README.md) — `examples/instrument-definitions/ice-crack-spreads`
+- [Finding liquid instruments](examples/liquid-universe-b058839b/README.md) — `examples/instrument-definitions/liquid-universe`
+- [Handling tick sizes](examples/tick-sizes-6ff67199/README.md) — `examples/instrument-definitions/tick-sizes`
+- [Options](examples/options-e50f8faf/README.md) — `examples/options`
+- [Daily statistics for equity options](examples/equity-open-interest-3a394e5e/README.md) — `examples/options/equity-open-interest`
+- [Equity options: Introduction](examples/equity-options-introduction-21cedbf6/README.md) — `examples/options/equity-options-introduction`
+- [Equity options: Introduction](examples/opra-fac89308/README.md) — `examples/options/equity-options-introduction/opra`
+- [Equity options: Introduction](examples/using-instrument-definitions-to-get-symbols-strike-prices-an-73c5aca1/README.md) — `examples/options/equity-options-introduction/using-instrument-definitions-to-get-symbols-strike-prices-and-expirations`
+- [Equity options: Introduction](examples/using-parent-symbology-to-fetch-an-option-chain-f4d31e98/README.md) — `examples/options/equity-options-introduction/using-parent-symbology-to-fetch-an-option-chain`
+- [Estimate implied volatility](examples/estimating-implied-volatility-d4ea2bb0/README.md) — `examples/options/estimating-implied-volatility`
+- [Resample US equity options NBBO](examples/nbbo-resampling-0a3c973c/README.md) — `examples/options/nbbo-resampling`
+- [Get end of day option spreads](examples/option-spreads-2a6c2ebd/README.md) — `examples/options/option-spreads`
+- [Join options with underlying prices](examples/options-and-futures-b5d8739d/README.md) — `examples/options/options-and-futures`
+- [Options on futures: Introduction](examples/options-on-futures-introduction-f4ea64ae/README.md) — `examples/options/options-on-futures-introduction`
+- [US equity options volume by venue](examples/options-venues-988246ea/README.md) — `examples/options/options-venues`
+- [All options with a given underlying](examples/options-with-underlying-158637ed/README.md) — `examples/options/options-with-underlying`
+- [Get symbols for 0DTE options](examples/zero-dte-options-bfc10105/README.md) — `examples/options/zero-dte-options`
+- [Order book](examples/order-book-d24b7792/README.md) — `examples/order-book`
+- [Limit order book construction](examples/limit-order-book-553fc276/README.md) — `examples/order-book/limit-order-book`
+- [Microprice and book imbalance](examples/microprice-bf42bea1/README.md) — `examples/order-book/microprice`
+- [Types of order book events](examples/order-actions-6bd46d1a/README.md) — `examples/order-book/order-actions`
+- [State management of resting orders](examples/order-tracking-245239f4/README.md) — `examples/order-book/order-tracking`
+- [State management of resting orders](examples/order-events-8ef61307/README.md) — `examples/order-book/order-tracking/order-events`
+- [Queue position of an order](examples/queue-position-a90c9850/README.md) — `examples/order-book/queue-position`
+- [Security master](examples/security-master-95b2988e/README.md) — `examples/security-master`
+- [Enrich instrument definitions](examples/enrich-instrument-definitions-7d0bb929/README.md) — `examples/security-master/enrich-instrument-definitions`
+- [Listings and delistings](examples/listings-and-delistings-cf19f8ec/README.md) — `examples/security-master/listings-and-delistings`
+- [Market capitalization change](examples/market-cap-change-d3e4d524/README.md) — `examples/security-master/market-cap-change`
+- [Symbology](examples/symbology-ee4be07a/README.md) — `examples/symbology`
+- [Dataset symbols](examples/all-dataset-symbols-4a3e9d6f/README.md) — `examples/symbology/all-dataset-symbols`
+- [Continuous contracts](examples/continuous-66eef165/README.md) — `examples/symbology/continuous`
+- [Symbology mapping for live data](examples/live-symbol-mapping-7778bef9/README.md) — `examples/symbology/live-symbol-mapping`
+- [Parent symbology](examples/parent-symbology-c93ead34/README.md) — `examples/symbology/parent-symbology`
+
+## faqs (7 routes)
+
+- [FAQs](faqs/faqs-e8e07bc0/README.md) — `faqs`
+- [MBP-1 vs. TBBO vs. BBO schemas](faqs/difference-between-mbp-and-tbbo-569acb81/README.md) — `faqs/difference-between-mbp-and-tbbo`
+- [Client libraries vs. APIs](faqs/differences-our-client-libraries-apis-2f051cea/README.md) — `faqs/differences-our-client-libraries-apis`
+- [Instruments and products](faqs/instruments-and-products-d6c1be2f/README.md) — `faqs/instruments-and-products`
+- [Streaming vs. batch download](faqs/streaming-vs-batch-download-ef0cfc37/README.md) — `faqs/streaming-vs-batch-download`
+- [Usage-based pricing and credits](faqs/usage-pricing-and-data-credits-f80afea4/README.md) — `faqs/usage-pricing-and-data-credits`
+- [Venues and publishers](faqs/venues-and-publishers-f5502330/README.md) — `faqs/venues-and-publishers`
+
+## home (1 routes)
+
+- [Databento Docs](home/docs-9b187d48/README.md) — `/docs`
+
+## portal (9 routes)
+
+- [Portal](portal/portal-117f49b2/README.md) — `portal`
+- [API keys](portal/api-keys-1caa949c/README.md) — `portal/api-keys`
+- [Batch download](portal/batch-download-e5065947/README.md) — `portal/batch-download`
+- [Billing](portal/billing-849aabed/README.md) — `portal/billing`
+- [Data catalog](portal/data-catalog-a99a4d5e/README.md) — `portal/data-catalog`
+- [Data usage](portal/data-usage-a13b034e/README.md) — `portal/data-usage`
+- [Download center](portal/download-center-30924ba3/README.md) — `portal/download-center`
+- [Plans and live data](portal/live-data-f2914788/README.md) — `portal/live-data`
+- [Team](portal/team-39c88891/README.md) — `portal/team`
+
+## quickstart (8 routes)
+
+- [Quickstart](quickstart/quickstart-fdbfccb8/README.md) — `quickstart`
+- [Build your first application](quickstart/build-first-app-218ea40d/README.md) — `quickstart/build-first-app`
+- [Choose a service](quickstart/choose-service-06060ab2/README.md) — `quickstart/choose-service`
+- [Getting historical data](quickstart/historical-092573c9/README.md) — `quickstart/historical`
+- [Getting live data](quickstart/live-e9c43ce4/README.md) — `quickstart/live`
+- [New user guides](quickstart/new-user-guides-1d40003f/README.md) — `quickstart/new-user-guides`
+- [Getting reference data](quickstart/reference-9b458505/README.md) — `quickstart/reference`
+- [Set up Databento](quickstart/set-up-68766957/README.md) — `quickstart/set-up`
+
+## release-notes (400 routes)
+
+- [Release notes](release-notes/release-notes-5606efb0/README.md) — `release-notes`
+- [C++](release-notes/release-notes-cpp-ff0625ae/README.md) — `release-notes/release-notes-cpp`
+- [0.1.0 - 2022-11-07](release-notes/0-1-0-2022-11-07-7e9ea720/README.md) — `release-notes/release-notes-cpp/0-1-0-2022-11-07`
+- [0.10.0 - 2023-07-20](release-notes/0-10-0-2023-07-20-50261a57/README.md) — `release-notes/release-notes-cpp/0-10-0-2023-07-20`
+- [0.11.0 - 2023-08-10](release-notes/0-11-0-2023-08-10-2ce7a2cf/README.md) — `release-notes/release-notes-cpp/0-11-0-2023-08-10`
+- [0.12.0 - 2023-08-24](release-notes/0-12-0-2023-08-24-468f39cd/README.md) — `release-notes/release-notes-cpp/0-12-0-2023-08-24`
+- [0.13.0 - 2023-09-21](release-notes/0-13-0-2023-09-21-dc3accd7/README.md) — `release-notes/release-notes-cpp/0-13-0-2023-09-21`
+- [0.13.1 - 2023-10-23](release-notes/0-13-1-2023-10-23-3c3534a0/README.md) — `release-notes/release-notes-cpp/0-13-1-2023-10-23`
+- [0.14.0 - 2023-11-23](release-notes/0-14-0-2023-11-23-0ba14b78/README.md) — `release-notes/release-notes-cpp/0-14-0-2023-11-23`
+- [0.14.1 - 2023-12-18](release-notes/0-14-1-2023-12-18-1c41c203/README.md) — `release-notes/release-notes-cpp/0-14-1-2023-12-18`
+- [0.15.0 - 2024-01-16](release-notes/0-15-0-2024-01-16-622e60f4/README.md) — `release-notes/release-notes-cpp/0-15-0-2024-01-16`
+- [0.16.0 - 2024-03-01](release-notes/0-16-0-2024-03-01-e96c33c9/README.md) — `release-notes/release-notes-cpp/0-16-0-2024-03-01`
+- [0.17.0 - 2024-04-01](release-notes/0-17-0-2024-04-01-df9f53ed/README.md) — `release-notes/release-notes-cpp/0-17-0-2024-04-01`
+- [0.17.1 - 2024-04-08](release-notes/0-17-1-2024-04-08-3ac3b990/README.md) — `release-notes/release-notes-cpp/0-17-1-2024-04-08`
+- [0.18.0 - 2024-05-14](release-notes/0-18-0-2024-05-14-14f5aed2/README.md) — `release-notes/release-notes-cpp/0-18-0-2024-05-14`
+- [0.18.1 - 2024-05-22](release-notes/0-18-1-2024-05-22-ba8c5669/README.md) — `release-notes/release-notes-cpp/0-18-1-2024-05-22`
+- [0.19.0 - 2024-06-04](release-notes/0-19-0-2024-06-04-bb7e51ce/README.md) — `release-notes/release-notes-cpp/0-19-0-2024-06-04`
+- [0.19.1 - 2024-06-25](release-notes/0-19-1-2024-06-25-9c36245c/README.md) — `release-notes/release-notes-cpp/0-19-1-2024-06-25`
+- [0.2.0 - 2022-12-01](release-notes/0-2-0-2022-12-01-28b1002c/README.md) — `release-notes/release-notes-cpp/0-2-0-2022-12-01`
+- [0.20.0 - 2024-07-09](release-notes/0-20-0-2024-07-09-5392a82f/README.md) — `release-notes/release-notes-cpp/0-20-0-2024-07-09`
+- [0.20.1 - 2024-07-16](release-notes/0-20-1-2024-07-16-40542c0c/README.md) — `release-notes/release-notes-cpp/0-20-1-2024-07-16`
+- [0.21.0 - 2024-07-30](release-notes/0-21-0-2024-07-30-edaf3a78/README.md) — `release-notes/release-notes-cpp/0-21-0-2024-07-30`
+- [0.22.0 - 2024-08-27](release-notes/0-22-0-2024-08-27-9b6ad670/README.md) — `release-notes/release-notes-cpp/0-22-0-2024-08-27`
+- [0.23.0 - 2024-09-25](release-notes/0-23-0-2024-09-25-a9e2ded0/README.md) — `release-notes/release-notes-cpp/0-23-0-2024-09-25`
+- [0.24.0 - 2024-10-22](release-notes/0-24-0-2024-10-22-21097b39/README.md) — `release-notes/release-notes-cpp/0-24-0-2024-10-22`
+- [0.25.0 - 2024-11-12](release-notes/0-25-0-2024-11-12-6763c5ba/README.md) — `release-notes/release-notes-cpp/0-25-0-2024-11-12`
+- [0.26.0 - 2024-12-17](release-notes/0-26-0-2024-12-17-c9d15c07/README.md) — `release-notes/release-notes-cpp/0-26-0-2024-12-17`
+- [0.27.0 - 2025-01-07](release-notes/0-27-0-2025-01-07-10aec895/README.md) — `release-notes/release-notes-cpp/0-27-0-2025-01-07`
+- [0.28.0 - 2025-01-21](release-notes/0-28-0-2025-01-21-459b4367/README.md) — `release-notes/release-notes-cpp/0-28-0-2025-01-21`
+- [0.29.0 - 2025-02-04](release-notes/0-29-0-2025-02-04-afa15e38/README.md) — `release-notes/release-notes-cpp/0-29-0-2025-02-04`
+- [0.3.0 - 2023-01-06](release-notes/0-3-0-2023-01-06-d3ea1e02/README.md) — `release-notes/release-notes-cpp/0-3-0-2023-01-06`
+- [0.30.0 - 2025-02-11](release-notes/0-30-0-2025-02-11-8a249fc8/README.md) — `release-notes/release-notes-cpp/0-30-0-2025-02-11`
+- [0.31.0 - 2025-03-18](release-notes/0-31-0-2025-03-18-6d708ded/README.md) — `release-notes/release-notes-cpp/0-31-0-2025-03-18`
+- [0.32.0 - 2025-04-02](release-notes/0-32-0-2025-04-02-06384d35/README.md) — `release-notes/release-notes-cpp/0-32-0-2025-04-02`
+- [0.32.1 - 2025-04-07](release-notes/0-32-1-2025-04-07-2760b264/README.md) — `release-notes/release-notes-cpp/0-32-1-2025-04-07`
+- [0.33.0 - 2025-04-15](release-notes/0-33-0-2025-04-15-b3a07bf7/README.md) — `release-notes/release-notes-cpp/0-33-0-2025-04-15`
+- [0.34.0 - 2025-04-22](release-notes/0-34-0-2025-04-22-bc31cdb3/README.md) — `release-notes/release-notes-cpp/0-34-0-2025-04-22`
+- [0.34.1 - 2025-04-29](release-notes/0-34-1-2025-04-29-ed7903eb/README.md) — `release-notes/release-notes-cpp/0-34-1-2025-04-29`
+- [0.34.2 - 2025-05-06](release-notes/0-34-2-2025-05-06-7e90cd58/README.md) — `release-notes/release-notes-cpp/0-34-2-2025-05-06`
+- [0.35.0 - 2025-05-13](release-notes/0-35-0-2025-05-13-27a7f89f/README.md) — `release-notes/release-notes-cpp/0-35-0-2025-05-13`
+- [0.35.1 - 2025-05-20](release-notes/0-35-1-2025-05-20-6462b559/README.md) — `release-notes/release-notes-cpp/0-35-1-2025-05-20`
+- [0.36.0 - 2025-05-27](release-notes/0-36-0-2025-05-27-69da80a3/README.md) — `release-notes/release-notes-cpp/0-36-0-2025-05-27`
+- [0.37.0 - 2025-06-03](release-notes/0-37-0-2025-06-03-041b2eda/README.md) — `release-notes/release-notes-cpp/0-37-0-2025-06-03`
+- [0.37.1 - 2025-06-03](release-notes/0-37-1-2025-06-03-0f910952/README.md) — `release-notes/release-notes-cpp/0-37-1-2025-06-03`
+- [0.38.0 - 2025-06-10](release-notes/0-38-0-2025-06-10-7cf911c5/README.md) — `release-notes/release-notes-cpp/0-38-0-2025-06-10`
+- [0.38.1 - 2025-06-25](release-notes/0-38-1-2025-06-25-9f0d7356/README.md) — `release-notes/release-notes-cpp/0-38-1-2025-06-25`
+- [0.38.2 - 2025-07-01](release-notes/0-38-2-2025-07-01-1ccd5ecd/README.md) — `release-notes/release-notes-cpp/0-38-2-2025-07-01`
+- [0.39.0 - 2025-07-15](release-notes/0-39-0-2025-07-15-17841e91/README.md) — `release-notes/release-notes-cpp/0-39-0-2025-07-15`
+- [0.39.1 - 2025-07-22](release-notes/0-39-1-2025-07-22-501403cc/README.md) — `release-notes/release-notes-cpp/0-39-1-2025-07-22`
+- [0.4.0 - 2023-03-02](release-notes/0-4-0-2023-03-02-724abe63/README.md) — `release-notes/release-notes-cpp/0-4-0-2023-03-02`
+- [0.40.0 - 2025-07-29](release-notes/0-40-0-2025-07-29-7788b1a1/README.md) — `release-notes/release-notes-cpp/0-40-0-2025-07-29`
+- [0.41.0 - 2025-08-12](release-notes/0-41-0-2025-08-12-e66a2495/README.md) — `release-notes/release-notes-cpp/0-41-0-2025-08-12`
+- [0.42.0 - 2025-08-19](release-notes/0-42-0-2025-08-19-af619ada/README.md) — `release-notes/release-notes-cpp/0-42-0-2025-08-19`
+- [0.43.0 - 2025-10-22](release-notes/0-43-0-2025-10-22-42090c58/README.md) — `release-notes/release-notes-cpp/0-43-0-2025-10-22`
+- [0.44.0 - 2025-11-18](release-notes/0-44-0-2025-11-18-fd732140/README.md) — `release-notes/release-notes-cpp/0-44-0-2025-11-18`
+- [0.45.0 - 2025-12-10](release-notes/0-45-0-2025-12-10-f37d61ce/README.md) — `release-notes/release-notes-cpp/0-45-0-2025-12-10`
+- [0.46.0 - 2026-01-20](release-notes/0-46-0-2026-01-20-c4ec22fe/README.md) — `release-notes/release-notes-cpp/0-46-0-2026-01-20`
+- [0.46.1 - 2026-01-27](release-notes/0-46-1-2026-01-27-660e9a64/README.md) — `release-notes/release-notes-cpp/0-46-1-2026-01-27`
+- [0.47.0 - 2026-02-04](release-notes/0-47-0-2026-02-04-d6a36c31/README.md) — `release-notes/release-notes-cpp/0-47-0-2026-02-04`
+- [0.48.0 - 2026-02-18](release-notes/0-48-0-2026-02-18-2834b13d/README.md) — `release-notes/release-notes-cpp/0-48-0-2026-02-18`
+- [0.49.0 - 2026-02-24](release-notes/0-49-0-2026-02-24-b24db087/README.md) — `release-notes/release-notes-cpp/0-49-0-2026-02-24`
+- [0.5.0 - 2023-03-13](release-notes/0-5-0-2023-03-13-74946c7d/README.md) — `release-notes/release-notes-cpp/0-5-0-2023-03-13`
+- [0.50.0 - 2026-03-03](release-notes/0-50-0-2026-03-03-d0c4fcbe/README.md) — `release-notes/release-notes-cpp/0-50-0-2026-03-03`
+- [0.51.0 - 2026-03-17](release-notes/0-51-0-2026-03-17-e40a3b05/README.md) — `release-notes/release-notes-cpp/0-51-0-2026-03-17`
+- [0.52.0 - 2026-03-31](release-notes/0-52-0-2026-03-31-35a0a15a/README.md) — `release-notes/release-notes-cpp/0-52-0-2026-03-31`
+- [0.53.0 - 2026-04-08](release-notes/0-53-0-2026-04-08-9f461337/README.md) — `release-notes/release-notes-cpp/0-53-0-2026-04-08`
+- [0.54.0 - 2026-04-21](release-notes/0-54-0-2026-04-21-60a0e1ee/README.md) — `release-notes/release-notes-cpp/0-54-0-2026-04-21`
+- [0.55.0 - 2026-04-28](release-notes/0-55-0-2026-04-28-123ad7c3/README.md) — `release-notes/release-notes-cpp/0-55-0-2026-04-28`
+- [0.56.0 - 2026-05-05](release-notes/0-56-0-2026-05-05-6a34c9c2/README.md) — `release-notes/release-notes-cpp/0-56-0-2026-05-05`
+- [0.57.0 - 2026-05-12](release-notes/0-57-0-2026-05-12-6d7d8f6e/README.md) — `release-notes/release-notes-cpp/0-57-0-2026-05-12`
+- [0.58.0 - 2026-05-26](release-notes/0-58-0-2026-05-26-47ed136a/README.md) — `release-notes/release-notes-cpp/0-58-0-2026-05-26`
+- [0.59.0 - 2026-06-02](release-notes/0-59-0-2026-06-02-356992ba/README.md) — `release-notes/release-notes-cpp/0-59-0-2026-06-02`
+- [0.6.0 - 2023-03-24](release-notes/0-6-0-2023-03-24-d397d703/README.md) — `release-notes/release-notes-cpp/0-6-0-2023-03-24`
+- [0.6.1 - 2023-03-28](release-notes/0-6-1-2023-03-28-c8b9b48e/README.md) — `release-notes/release-notes-cpp/0-6-1-2023-03-28`
+- [0.60.0 - 2026-06-16](release-notes/0-60-0-2026-06-16-23e3bd5a/README.md) — `release-notes/release-notes-cpp/0-60-0-2026-06-16`
+- [0.61.0 - 2026-07-07](release-notes/0-61-0-2026-07-07-7ec1c079/README.md) — `release-notes/release-notes-cpp/0-61-0-2026-07-07`
+- [0.62.0 - 2026-07-14](release-notes/0-62-0-2026-07-14-e0fd7caa/README.md) — `release-notes/release-notes-cpp/0-62-0-2026-07-14`
+- [0.62.1 - 2026-07-28](release-notes/0-62-1-2026-07-28-f800e54c/README.md) — `release-notes/release-notes-cpp/0-62-1-2026-07-28`
+- [0.63.0 - 2026-08-04](release-notes/0-63-0-2026-08-04-f18fe2f0/README.md) — `release-notes/release-notes-cpp/0-63-0-2026-08-04`
+- [0.64.0 - 2026-08-11](release-notes/0-64-0-2026-08-11-5c15446f/README.md) — `release-notes/release-notes-cpp/0-64-0-2026-08-11`
+- [0.65.0 - 2026-08-18](release-notes/0-65-0-2026-08-18-4e9c3887/README.md) — `release-notes/release-notes-cpp/0-65-0-2026-08-18`
+- [0.66.0 - 2026-08-25](release-notes/0-66-0-2026-08-25-50edae8c/README.md) — `release-notes/release-notes-cpp/0-66-0-2026-08-25`
+- [0.67.0 - 2026-09-01](release-notes/0-67-0-2026-09-01-0b20a1cd/README.md) — `release-notes/release-notes-cpp/0-67-0-2026-09-01`
+- [0.68.0 - 2026-09-18](release-notes/0-68-0-2026-09-18-f835b6a0/README.md) — `release-notes/release-notes-cpp/0-68-0-2026-09-18`
+- [0.68.0 - Upcoming](release-notes/0-68-0-upcoming-d5f24981/README.md) — `release-notes/release-notes-cpp/0-68-0-upcoming`
+- [0.69.0 - Upcoming (unresolved route)](release-notes/0-69-0-upcoming-012fe1a7/README.md) — unresolved — `release-notes/release-notes-cpp/0-69-0-upcoming`
+- [0.7.0 - 2023-04-28](release-notes/0-7-0-2023-04-28-5992c4e7/README.md) — `release-notes/release-notes-cpp/0-7-0-2023-04-28`
+- [0.8.0 - 2023-05-16](release-notes/0-8-0-2023-05-16-64c5b6ce/README.md) — `release-notes/release-notes-cpp/0-8-0-2023-05-16`
+- [0.9.0 - 2023-06-13](release-notes/0-9-0-2023-06-13-b90c989e/README.md) — `release-notes/release-notes-cpp/0-9-0-2023-06-13`
+- [0.9.1 - 2023-07-11](release-notes/0-9-1-2023-07-11-6edeca90/README.md) — `release-notes/release-notes-cpp/0-9-1-2023-07-11`
+- [Data](release-notes/release-notes-data-66a82e35/README.md) — `release-notes/release-notes-data`
+- [2023-03-07](release-notes/2023-03-07-69bb6167/README.md) — `release-notes/release-notes-data/2023-03-07`
+- [2023-04-28](release-notes/2023-04-28-5b7e7de1/README.md) — `release-notes/release-notes-data/2023-04-28`
+- [2023-05-01](release-notes/2023-05-01-7e63cdd8/README.md) — `release-notes/release-notes-data/2023-05-01`
+- [2023-07-23](release-notes/2023-07-23-b131a15a/README.md) — `release-notes/release-notes-data/2023-07-23`
+- [2023-08-29](release-notes/2023-08-29-5b71068c/README.md) — `release-notes/release-notes-data/2023-08-29`
+- [2023-10-04](release-notes/2023-10-04-4cfd68ab/README.md) — `release-notes/release-notes-data/2023-10-04`
+- [2023-11-17](release-notes/2023-11-17-d5c1143a/README.md) — `release-notes/release-notes-data/2023-11-17`
+- [2024-01-18](release-notes/2024-01-18-b0041aa3/README.md) — `release-notes/release-notes-data/2024-01-18`
+- [2024-05-07](release-notes/2024-05-07-c003f45e/README.md) — `release-notes/release-notes-data/2024-05-07`
+- [2024-06-18](release-notes/2024-06-18-b1e0b20d/README.md) — `release-notes/release-notes-data/2024-06-18`
+- [2024-06-25](release-notes/2024-06-25-cc3a97c8/README.md) — `release-notes/release-notes-data/2024-06-25`
+- [2024-07-05](release-notes/2024-07-05-69b19860/README.md) — `release-notes/release-notes-data/2024-07-05`
+- [2024-10-22](release-notes/2024-10-22-e20fb52e/README.md) — `release-notes/release-notes-data/2024-10-22`
+- [2024-10-24](release-notes/2024-10-24-f761214e/README.md) — `release-notes/release-notes-data/2024-10-24`
+- [2024-12-02](release-notes/2024-12-02-ff8179e5/README.md) — `release-notes/release-notes-data/2024-12-02`
+- [2024-12-03](release-notes/2024-12-03-b588795c/README.md) — `release-notes/release-notes-data/2024-12-03`
+- [2024-12-14](release-notes/2024-12-14-5a2c6938/README.md) — `release-notes/release-notes-data/2024-12-14`
+- [2025-01-15](release-notes/2025-01-15-3675667e/README.md) — `release-notes/release-notes-data/2025-01-15`
+- [2025-02-01](release-notes/2025-02-01-f7b13dad/README.md) — `release-notes/release-notes-data/2025-02-01`
+- [2025-02-26](release-notes/2025-02-26-ec9057d2/README.md) — `release-notes/release-notes-data/2025-02-26`
+- [2025-03-13](release-notes/2025-03-13-996150ec/README.md) — `release-notes/release-notes-data/2025-03-13`
+- [2025-04-01](release-notes/2025-04-01-8431f5f5/README.md) — `release-notes/release-notes-data/2025-04-01`
+- [2025-04-05](release-notes/2025-04-05-7888b27c/README.md) — `release-notes/release-notes-data/2025-04-05`
+- [2025-05-07](release-notes/2025-05-07-d521c496/README.md) — `release-notes/release-notes-data/2025-05-07`
+- [2025-05-20](release-notes/2025-05-20-2fa1c656/README.md) — `release-notes/release-notes-data/2025-05-20`
+- [2025-06-10](release-notes/2025-06-10-e39b2f47/README.md) — `release-notes/release-notes-data/2025-06-10`
+- [2025-06-17](release-notes/2025-06-17-f69d7a49/README.md) — `release-notes/release-notes-data/2025-06-17`
+- [2025-06-27](release-notes/2025-06-27-8bfd38c3/README.md) — `release-notes/release-notes-data/2025-06-27`
+- [2025-07-01](release-notes/2025-07-01-22acb19a/README.md) — `release-notes/release-notes-data/2025-07-01`
+- [2025-07-06](release-notes/2025-07-06-b9001d7e/README.md) — `release-notes/release-notes-data/2025-07-06`
+- [2025-07-25](release-notes/2025-07-25-073438b3/README.md) — `release-notes/release-notes-data/2025-07-25`
+- [2025-08-05](release-notes/2025-08-05-2ea3dffa/README.md) — `release-notes/release-notes-data/2025-08-05`
+- [2025-08-26](release-notes/2025-08-26-d000ef14/README.md) — `release-notes/release-notes-data/2025-08-26`
+- [2025-09-23](release-notes/2025-09-23-2df113f8/README.md) — `release-notes/release-notes-data/2025-09-23`
+- [2025-11-04](release-notes/2025-11-04-5a5d0ace/README.md) — `release-notes/release-notes-data/2025-11-04`
+- [2025-11-09](release-notes/2025-11-09-5d4e2bd9/README.md) — `release-notes/release-notes-data/2025-11-09`
+- [2026-04-08](release-notes/2026-04-08-5ae99ee4/README.md) — `release-notes/release-notes-data/2026-04-08`
+- [2026-04-13](release-notes/2026-04-13-af9e9cc4/README.md) — `release-notes/release-notes-data/2026-04-13`
+- [2026-04-15](release-notes/2026-04-15-2db5fab0/README.md) — `release-notes/release-notes-data/2026-04-15`
+- [2026-04-22](release-notes/2026-04-22-ab99e805/README.md) — `release-notes/release-notes-data/2026-04-22`
+- [2026-05-09](release-notes/2026-05-09-e17b4139/README.md) — `release-notes/release-notes-data/2026-05-09`
+- [2026-05-31](release-notes/2026-05-31-d0fc8f29/README.md) — `release-notes/release-notes-data/2026-05-31`
+- [2026-07-19](release-notes/2026-07-19-0542598f/README.md) — `release-notes/release-notes-data/2026-07-19`
+- [2026-08-08](release-notes/2026-08-08-c306c382/README.md) — `release-notes/release-notes-data/2026-08-08`
+- [HTTP API](release-notes/release-notes-http-8581d003/README.md) — `release-notes/release-notes-http`
+- [0.1.0 - 2021-08-30](release-notes/0-1-0-2021-08-30-b4a703d3/README.md) — `release-notes/release-notes-http/0-1-0-2021-08-30`
+- [0.10.0 - 2023-07-06](release-notes/0-10-0-2023-07-06-90a3eca8/README.md) — `release-notes/release-notes-http/0-10-0-2023-07-06`
+- [0.11.0 - 2023-07-25](release-notes/0-11-0-2023-07-25-cfc4cbac/README.md) — `release-notes/release-notes-http/0-11-0-2023-07-25`
+- [0.12.0 - 2023-08-10](release-notes/0-12-0-2023-08-10-427b75b2/README.md) — `release-notes/release-notes-http/0-12-0-2023-08-10`
+- [0.13.0 - 2023-08-23](release-notes/0-13-0-2023-08-23-a5d22153/README.md) — `release-notes/release-notes-http/0-13-0-2023-08-23`
+- [0.14.0 - 2023-08-29](release-notes/0-14-0-2023-08-29-1c1b2c1c/README.md) — `release-notes/release-notes-http/0-14-0-2023-08-29`
+- [0.15.0 - 2023-09-19](release-notes/0-15-0-2023-09-19-c92e92e9/README.md) — `release-notes/release-notes-http/0-15-0-2023-09-19`
+- [0.16.0 - 2023-09-26](release-notes/0-16-0-2023-09-26-8db34f56/README.md) — `release-notes/release-notes-http/0-16-0-2023-09-26`
+- [0.17.0 - 2023-10-04](release-notes/0-17-0-2023-10-04-f96cce84/README.md) — `release-notes/release-notes-http/0-17-0-2023-10-04`
+- [0.18.0 - 2023-10-11](release-notes/0-18-0-2023-10-11-fc6a80f3/README.md) — `release-notes/release-notes-http/0-18-0-2023-10-11`
+- [0.19.0 - 2023-10-17](release-notes/0-19-0-2023-10-17-2c5d62e0/README.md) — `release-notes/release-notes-http/0-19-0-2023-10-17`
+- [0.2.0 - 2021-12-10](release-notes/0-2-0-2021-12-10-a1343d53/README.md) — `release-notes/release-notes-http/0-2-0-2021-12-10`
+- [0.20.0 - 2024-01-18](release-notes/0-20-0-2024-01-18-c7e9de0d/README.md) — `release-notes/release-notes-http/0-20-0-2024-01-18`
+- [0.21.0 - 2024-01-30](release-notes/0-21-0-2024-01-30-68fe86ef/README.md) — `release-notes/release-notes-http/0-21-0-2024-01-30`
+- [0.22.0 - 2024-02-06](release-notes/0-22-0-2024-02-06-f670b259/README.md) — `release-notes/release-notes-http/0-22-0-2024-02-06`
+- [0.23.0 - 2024-02-15](release-notes/0-23-0-2024-02-15-bc395823/README.md) — `release-notes/release-notes-http/0-23-0-2024-02-15`
+- [0.24.0 - 2024-03-06](release-notes/0-24-0-2024-03-06-b2401d5e/README.md) — `release-notes/release-notes-http/0-24-0-2024-03-06`
+- [0.25.0 - 2024-03-26](release-notes/0-25-0-2024-03-26-38ec9af6/README.md) — `release-notes/release-notes-http/0-25-0-2024-03-26`
+- [0.26.0 - 2024-05-14](release-notes/0-26-0-2024-05-14-9c863dd4/README.md) — `release-notes/release-notes-http/0-26-0-2024-05-14`
+- [0.27.0 - 2024-06-04](release-notes/0-27-0-2024-06-04-d4121ff1/README.md) — `release-notes/release-notes-http/0-27-0-2024-06-04`
+- [0.28.0 - 2024-06-25](release-notes/0-28-0-2024-06-25-def60f43/README.md) — `release-notes/release-notes-http/0-28-0-2024-06-25`
+- [0.29.0 - 2024-09-03](release-notes/0-29-0-2024-09-03-ac210815/README.md) — `release-notes/release-notes-http/0-29-0-2024-09-03`
+- [0.3.0 - 2022-08-30](release-notes/0-3-0-2022-08-30-1a090258/README.md) — `release-notes/release-notes-http/0-3-0-2022-08-30`
+- [0.30.0 - 2024-09-24](release-notes/0-30-0-2024-09-24-26bdd1f0/README.md) — `release-notes/release-notes-http/0-30-0-2024-09-24`
+- [0.31.0 - 2024-11-12](release-notes/0-31-0-2024-11-12-1fe80397/README.md) — `release-notes/release-notes-http/0-31-0-2024-11-12`
+- [0.32.0 - 2024-11-26](release-notes/0-32-0-2024-11-26-62aed7f5/README.md) — `release-notes/release-notes-http/0-32-0-2024-11-26`
+- [0.33.0 - 2024-12-10](release-notes/0-33-0-2024-12-10-c0737671/README.md) — `release-notes/release-notes-http/0-33-0-2024-12-10`
+- [0.34.0 - 2025-06-09](release-notes/0-34-0-2025-06-09-4b07aa25/README.md) — `release-notes/release-notes-http/0-34-0-2025-06-09`
+- [0.34.1 - 2025-06-17](release-notes/0-34-1-2025-06-17-3ee28006/README.md) — `release-notes/release-notes-http/0-34-1-2025-06-17`
+- [0.35.0 - 2025-08-19](release-notes/0-35-0-2025-08-19-0847d1a5/README.md) — `release-notes/release-notes-http/0-35-0-2025-08-19`
+- [0.36.0 - TBD](release-notes/0-36-0-tbd-2cae0a85/README.md) — `release-notes/release-notes-http/0-36-0-tbd`
+- [0.4.0 - 2022-12-02](release-notes/0-4-0-2022-12-02-f6b3b88f/README.md) — `release-notes/release-notes-http/0-4-0-2022-12-02`
+- [0.5.0 - 2023-03-03](release-notes/0-5-0-2023-03-03-1700eff6/README.md) — `release-notes/release-notes-http/0-5-0-2023-03-03`
+- [0.6.0 - 2023-03-10](release-notes/0-6-0-2023-03-10-c5ce3ae1/README.md) — `release-notes/release-notes-http/0-6-0-2023-03-10`
+- [0.7.0 - 2023-04-07](release-notes/0-7-0-2023-04-07-f4c4d075/README.md) — `release-notes/release-notes-http/0-7-0-2023-04-07`
+- [0.8.0 - 2023-05-01](release-notes/0-8-0-2023-05-01-dc4bcfeb/README.md) — `release-notes/release-notes-http/0-8-0-2023-05-01`
+- [0.9.0 - 2023-06-01](release-notes/0-9-0-2023-06-01-b85756c0/README.md) — `release-notes/release-notes-http/0-9-0-2023-06-01`
+- [Python](release-notes/release-notes-python-44f6f504/README.md) — `release-notes/release-notes-python`
+- [0.10.0 - 2023-04-07](release-notes/0-10-0-2023-04-07-bcdc6466/README.md) — `release-notes/release-notes-python/0-10-0-2023-04-07`
+- [0.11.0 - 2023-04-13](release-notes/0-11-0-2023-04-13-5872d02f/README.md) — `release-notes/release-notes-python/0-11-0-2023-04-13`
+- [0.12.0 - 2023-05-01](release-notes/0-12-0-2023-05-01-c68cb71c/README.md) — `release-notes/release-notes-python/0-12-0-2023-05-01`
+- [0.13.0 - 2023-06-02](release-notes/0-13-0-2023-06-02-c855333f/README.md) — `release-notes/release-notes-python/0-13-0-2023-06-02`
+- [0.14.0 - 2023-06-14](release-notes/0-14-0-2023-06-14-3370265c/README.md) — `release-notes/release-notes-python/0-14-0-2023-06-14`
+- [0.14.1 - 2023-06-16](release-notes/0-14-1-2023-06-16-483bd78c/README.md) — `release-notes/release-notes-python/0-14-1-2023-06-16`
+- [0.15.0 - 2023-07-05](release-notes/0-15-0-2023-07-05-73e95870/README.md) — `release-notes/release-notes-python/0-15-0-2023-07-05`
+- [0.15.1 - 2023-07-06](release-notes/0-15-1-2023-07-06-16c0a040/README.md) — `release-notes/release-notes-python/0-15-1-2023-07-06`
+- [0.15.2 - 2023-07-19](release-notes/0-15-2-2023-07-19-722b9cff/README.md) — `release-notes/release-notes-python/0-15-2-2023-07-19`
+- [0.16.0 - 2023-07-25](release-notes/0-16-0-2023-07-25-8ebf333b/README.md) — `release-notes/release-notes-python/0-16-0-2023-07-25`
+- [0.16.1 - 2023-08-03](release-notes/0-16-1-2023-08-03-860eb299/README.md) — `release-notes/release-notes-python/0-16-1-2023-08-03`
+- [0.17.0 - 2023-08-10](release-notes/0-17-0-2023-08-10-e9251478/README.md) — `release-notes/release-notes-python/0-17-0-2023-08-10`
+- [0.18.0 - 2023-08-14](release-notes/0-18-0-2023-08-14-eeae2e6c/README.md) — `release-notes/release-notes-python/0-18-0-2023-08-14`
+- [0.18.1 - 2023-08-16](release-notes/0-18-1-2023-08-16-cdea428f/README.md) — `release-notes/release-notes-python/0-18-1-2023-08-16`
+- [0.19.0 - 2023-08-25](release-notes/0-19-0-2023-08-25-48c65d60/README.md) — `release-notes/release-notes-python/0-19-0-2023-08-25`
+- [0.19.1 - 2023-09-08](release-notes/0-19-1-2023-09-08-3c373796/README.md) — `release-notes/release-notes-python/0-19-1-2023-09-08`
+- [0.20.0 - 2023-09-21](release-notes/0-20-0-2023-09-21-13ef0825/README.md) — `release-notes/release-notes-python/0-20-0-2023-09-21`
+- [0.21.0 - 2023-10-11](release-notes/0-21-0-2023-10-11-5409e4f3/README.md) — `release-notes/release-notes-python/0-21-0-2023-10-11`
+- [0.22.0 - 2023-10-23](release-notes/0-22-0-2023-10-23-719a4d0f/README.md) — `release-notes/release-notes-python/0-22-0-2023-10-23`
+- [0.22.1 - 2023-10-24](release-notes/0-22-1-2023-10-24-27344847/README.md) — `release-notes/release-notes-python/0-22-1-2023-10-24`
+- [0.23.0 - 2023-10-26](release-notes/0-23-0-2023-10-26-eea67e9a/README.md) — `release-notes/release-notes-python/0-23-0-2023-10-26`
+- [0.23.1 - 2023-11-10](release-notes/0-23-1-2023-11-10-692667a9/README.md) — `release-notes/release-notes-python/0-23-1-2023-11-10`
+- [0.24.0 - 2023-11-23](release-notes/0-24-0-2023-11-23-8bdadc5a/README.md) — `release-notes/release-notes-python/0-24-0-2023-11-23`
+- [0.24.1 - 2023-12-15](release-notes/0-24-1-2023-12-15-197cdb4c/README.md) — `release-notes/release-notes-python/0-24-1-2023-12-15`
+- [0.25.0 - 2024-01-09](release-notes/0-25-0-2024-01-09-7ea31c10/README.md) — `release-notes/release-notes-python/0-25-0-2024-01-09`
+- [0.26.0 - 2024-01-16](release-notes/0-26-0-2024-01-16-732268e4/README.md) — `release-notes/release-notes-python/0-26-0-2024-01-16`
+- [0.27.0 - 2024-01-23](release-notes/0-27-0-2024-01-23-17ec9b61/README.md) — `release-notes/release-notes-python/0-27-0-2024-01-23`
+- [0.28.0 - 2024-02-01](release-notes/0-28-0-2024-02-01-0e594dc8/README.md) — `release-notes/release-notes-python/0-28-0-2024-02-01`
+- [0.29.0 - 2024-02-13](release-notes/0-29-0-2024-02-13-6a014833/README.md) — `release-notes/release-notes-python/0-29-0-2024-02-13`
+- [0.3.0 - 2022-08-30](release-notes/0-3-0-2022-08-30-28498989/README.md) — `release-notes/release-notes-python/0-3-0-2022-08-30`
+- [0.30.0 - 2024-02-22](release-notes/0-30-0-2024-02-22-86f96921/README.md) — `release-notes/release-notes-python/0-30-0-2024-02-22`
+- [0.31.0 - 2024-03-05](release-notes/0-31-0-2024-03-05-764784f4/README.md) — `release-notes/release-notes-python/0-31-0-2024-03-05`
+- [0.31.1 - 2024-03-20](release-notes/0-31-1-2024-03-20-5fb2ce63/README.md) — `release-notes/release-notes-python/0-31-1-2024-03-20`
+- [0.32.0 - 2024-04-04](release-notes/0-32-0-2024-04-04-3b4a5a27/README.md) — `release-notes/release-notes-python/0-32-0-2024-04-04`
+- [0.33.0 - 2024-04-16](release-notes/0-33-0-2024-04-16-830a2f56/README.md) — `release-notes/release-notes-python/0-33-0-2024-04-16`
+- [0.34.0 - 2024-05-14](release-notes/0-34-0-2024-05-14-389c51fc/README.md) — `release-notes/release-notes-python/0-34-0-2024-05-14`
+- [0.34.1 - 2024-05-21](release-notes/0-34-1-2024-05-21-b0ed0360/README.md) — `release-notes/release-notes-python/0-34-1-2024-05-21`
+- [0.35.0 - 2024-06-04](release-notes/0-35-0-2024-06-04-4eaf195f/README.md) — `release-notes/release-notes-python/0-35-0-2024-06-04`
+- [0.36.0 - 2024-06-11](release-notes/0-36-0-2024-06-11-2b53c70c/README.md) — `release-notes/release-notes-python/0-36-0-2024-06-11`
+- [0.36.1 - 2024-06-18](release-notes/0-36-1-2024-06-18-7e993933/README.md) — `release-notes/release-notes-python/0-36-1-2024-06-18`
+- [0.36.2 - 2024-06-25](release-notes/0-36-2-2024-06-25-97f3d1e4/README.md) — `release-notes/release-notes-python/0-36-2-2024-06-25`
+- [0.36.3 - 2024-07-02](release-notes/0-36-3-2024-07-02-9e7b169c/README.md) — `release-notes/release-notes-python/0-36-3-2024-07-02`
+- [0.37.0 - 2024-07-09](release-notes/0-37-0-2024-07-09-01dc3ecb/README.md) — `release-notes/release-notes-python/0-37-0-2024-07-09`
+- [0.38.0 - 2024-07-23](release-notes/0-38-0-2024-07-23-34314636/README.md) — `release-notes/release-notes-python/0-38-0-2024-07-23`
+- [0.39.0 - 2024-07-30](release-notes/0-39-0-2024-07-30-e64b149f/README.md) — `release-notes/release-notes-python/0-39-0-2024-07-30`
+- [0.39.1 - 2024-08-13](release-notes/0-39-1-2024-08-13-af8d238d/README.md) — `release-notes/release-notes-python/0-39-1-2024-08-13`
+- [0.39.2 - 2024-08-13](release-notes/0-39-2-2024-08-13-fc4c4682/README.md) — `release-notes/release-notes-python/0-39-2-2024-08-13`
+- [0.39.3 - 2024-08-20](release-notes/0-39-3-2024-08-20-645292f3/README.md) — `release-notes/release-notes-python/0-39-3-2024-08-20`
+- [0.4.0 - 2022-09-14](release-notes/0-4-0-2022-09-14-5faf9860/README.md) — `release-notes/release-notes-python/0-4-0-2022-09-14`
+- [0.40.0 - 2024-08-27](release-notes/0-40-0-2024-08-27-bfb4e047/README.md) — `release-notes/release-notes-python/0-40-0-2024-08-27`
+- [0.41.0 - 2024-09-03](release-notes/0-41-0-2024-09-03-50f03753/README.md) — `release-notes/release-notes-python/0-41-0-2024-09-03`
+- [0.42.0 - 2024-09-23](release-notes/0-42-0-2024-09-23-324e552b/README.md) — `release-notes/release-notes-python/0-42-0-2024-09-23`
+- [0.43.0 - 2024-10-09](release-notes/0-43-0-2024-10-09-0aa7da5e/README.md) — `release-notes/release-notes-python/0-43-0-2024-10-09`
+- [0.43.1 - 2024-10-15](release-notes/0-43-1-2024-10-15-0f4ccabb/README.md) — `release-notes/release-notes-python/0-43-1-2024-10-15`
+- [0.44.0 - 2024-10-22](release-notes/0-44-0-2024-10-22-8e204723/README.md) — `release-notes/release-notes-python/0-44-0-2024-10-22`
+- [0.44.1 - 2024-10-29](release-notes/0-44-1-2024-10-29-c9a8abe8/README.md) — `release-notes/release-notes-python/0-44-1-2024-10-29`
+- [0.45.0 - 2024-11-12](release-notes/0-45-0-2024-11-12-32fdbbf4/README.md) — `release-notes/release-notes-python/0-45-0-2024-11-12`
+- [0.46.0 - 2024-12-10](release-notes/0-46-0-2024-12-10-40a05689/README.md) — `release-notes/release-notes-python/0-46-0-2024-12-10`
+- [0.47.0 - 2024-12-17](release-notes/0-47-0-2024-12-17-b1ec5373/README.md) — `release-notes/release-notes-python/0-47-0-2024-12-17`
+- [0.48.0 - 2025-01-21](release-notes/0-48-0-2025-01-21-8e1b1268/README.md) — `release-notes/release-notes-python/0-48-0-2025-01-21`
+- [0.49.0 - 2025-03-04](release-notes/0-49-0-2025-03-04-1746b8ea/README.md) — `release-notes/release-notes-python/0-49-0-2025-03-04`
+- [0.5.0 - 2022-11-07](release-notes/0-5-0-2022-11-07-7518fa4d/README.md) — `release-notes/release-notes-python/0-5-0-2022-11-07`
+- [0.50.0 - 2025-03-18](release-notes/0-50-0-2025-03-18-a2657950/README.md) — `release-notes/release-notes-python/0-50-0-2025-03-18`
+- [0.51.0 - 2025-04-08](release-notes/0-51-0-2025-04-08-aba2b660/README.md) — `release-notes/release-notes-python/0-51-0-2025-04-08`
+- [0.52.0 - 2025-04-15](release-notes/0-52-0-2025-04-15-1cb46a2b/README.md) — `release-notes/release-notes-python/0-52-0-2025-04-15`
+- [0.53.0 - 2025-04-29](release-notes/0-53-0-2025-04-29-cdb6dd81/README.md) — `release-notes/release-notes-python/0-53-0-2025-04-29`
+- [0.54.0 - 2025-05-13](release-notes/0-54-0-2025-05-13-f82afe28/README.md) — `release-notes/release-notes-python/0-54-0-2025-05-13`
+- [0.55.0 - 2025-05-29](release-notes/0-55-0-2025-05-29-a58bdcbb/README.md) — `release-notes/release-notes-python/0-55-0-2025-05-29`
+- [0.55.1 - 2025-06-02](release-notes/0-55-1-2025-06-02-3542b61a/README.md) — `release-notes/release-notes-python/0-55-1-2025-06-02`
+- [0.56.0 - 2025-06-03](release-notes/0-56-0-2025-06-03-537b68d0/README.md) — `release-notes/release-notes-python/0-56-0-2025-06-03`
+- [0.57.0 - 2025-06-10](release-notes/0-57-0-2025-06-10-1f26f006/README.md) — `release-notes/release-notes-python/0-57-0-2025-06-10`
+- [0.57.1 - 2025-06-17](release-notes/0-57-1-2025-06-17-0867e611/README.md) — `release-notes/release-notes-python/0-57-1-2025-06-17`
+- [0.58.0 - 2025-07-08](release-notes/0-58-0-2025-07-08-1b130e86/README.md) — `release-notes/release-notes-python/0-58-0-2025-07-08`
+- [0.59.0 - 2025-07-15](release-notes/0-59-0-2025-07-15-74ea9303/README.md) — `release-notes/release-notes-python/0-59-0-2025-07-15`
+- [0.6.0 - 2022-12-02](release-notes/0-6-0-2022-12-02-fd707b92/README.md) — `release-notes/release-notes-python/0-6-0-2022-12-02`
+- [0.60.0 - 2025-08-05](release-notes/0-60-0-2025-08-05-c1ba23ec/README.md) — `release-notes/release-notes-python/0-60-0-2025-08-05`
+- [0.61.0 - 2025-08-12](release-notes/0-61-0-2025-08-12-6c30148a/README.md) — `release-notes/release-notes-python/0-61-0-2025-08-12`
+- [0.62.0 - 2025-08-19](release-notes/0-62-0-2025-08-19-119d982d/README.md) — `release-notes/release-notes-python/0-62-0-2025-08-19`
+- [0.63.0 - 2025-09-02](release-notes/0-63-0-2025-09-02-21d24392/README.md) — `release-notes/release-notes-python/0-63-0-2025-09-02`
+- [0.64.0 - 2025-09-30](release-notes/0-64-0-2025-09-30-d51f7c0e/README.md) — `release-notes/release-notes-python/0-64-0-2025-09-30`
+- [0.65.0 - 2025-11-11](release-notes/0-65-0-2025-11-11-4168c97a/README.md) — `release-notes/release-notes-python/0-65-0-2025-11-11`
+- [0.66.0 - 2025-11-18](release-notes/0-66-0-2025-11-18-5ab8b20e/README.md) — `release-notes/release-notes-python/0-66-0-2025-11-18`
+- [0.67.0 - 2025-12-02](release-notes/0-67-0-2025-12-02-0b377c60/README.md) — `release-notes/release-notes-python/0-67-0-2025-12-02`
+- [0.68.0 - 2025-12-09](release-notes/0-68-0-2025-12-09-200b763a/README.md) — `release-notes/release-notes-python/0-68-0-2025-12-09`
+- [0.68.1 - 2025-12-16](release-notes/0-68-1-2025-12-16-d2ebc2b9/README.md) — `release-notes/release-notes-python/0-68-1-2025-12-16`
+- [0.68.2 - 2026-01-06](release-notes/0-68-2-2026-01-06-9894fc1b/README.md) — `release-notes/release-notes-python/0-68-2-2026-01-06`
+- [0.69.0 - 2026-01-13](release-notes/0-69-0-2026-01-13-c17ab523/README.md) — `release-notes/release-notes-python/0-69-0-2026-01-13`
+- [0.7.0 - 2023-01-10](release-notes/0-7-0-2023-01-10-7af676cb/README.md) — `release-notes/release-notes-python/0-7-0-2023-01-10`
+- [0.70.0 - 2026-01-27](release-notes/0-70-0-2026-01-27-41062599/README.md) — `release-notes/release-notes-python/0-70-0-2026-01-27`
+- [0.71.0 - 2026-02-17](release-notes/0-71-0-2026-02-17-cd4e8086/README.md) — `release-notes/release-notes-python/0-71-0-2026-02-17`
+- [0.72.0 - 2026-02-26](release-notes/0-72-0-2026-02-26-68ba4ffc/README.md) — `release-notes/release-notes-python/0-72-0-2026-02-26`
+- [0.73.0 - 2026-03-10](release-notes/0-73-0-2026-03-10-37dbd7eb/README.md) — `release-notes/release-notes-python/0-73-0-2026-03-10`
+- [0.74.0 - 2026-03-24](release-notes/0-74-0-2026-03-24-9e445e18/README.md) — `release-notes/release-notes-python/0-74-0-2026-03-24`
+- [0.74.1 - 2026-03-31](release-notes/0-74-1-2026-03-31-15d5c1e1/README.md) — `release-notes/release-notes-python/0-74-1-2026-03-31`
+- [0.75.0 - 2026-04-07](release-notes/0-75-0-2026-04-07-98bec35f/README.md) — `release-notes/release-notes-python/0-75-0-2026-04-07`
+- [0.76.0 - 2026-04-21](release-notes/0-76-0-2026-04-21-30b831d4/README.md) — `release-notes/release-notes-python/0-76-0-2026-04-21`
+- [0.77.0 - 2026-04-28](release-notes/0-77-0-2026-04-28-7e7efc25/README.md) — `release-notes/release-notes-python/0-77-0-2026-04-28`
+- [0.78.0 - 2026-05-12](release-notes/0-78-0-2026-05-12-8f5225cc/README.md) — `release-notes/release-notes-python/0-78-0-2026-05-12`
+- [0.79.0 - 2026-06-02](release-notes/0-79-0-2026-06-02-1904c8f4/README.md) — `release-notes/release-notes-python/0-79-0-2026-06-02`
+- [0.8.0 - 2023-03-03](release-notes/0-8-0-2023-03-03-8d8108f1/README.md) — `release-notes/release-notes-python/0-8-0-2023-03-03`
+- [0.8.1 - 2023-03-05](release-notes/0-8-1-2023-03-05-8e9febf1/README.md) — `release-notes/release-notes-python/0-8-1-2023-03-05`
+- [0.80.0 - 2026-06-16](release-notes/0-80-0-2026-06-16-b4e28c25/README.md) — `release-notes/release-notes-python/0-80-0-2026-06-16`
+- [0.81.0 - 2026-07-07](release-notes/0-81-0-2026-07-07-12e00151/README.md) — `release-notes/release-notes-python/0-81-0-2026-07-07`
+- [0.82.0 - 2026-07-21](release-notes/0-82-0-2026-07-21-0f12604b/README.md) — `release-notes/release-notes-python/0-82-0-2026-07-21`
+- [0.83.0 - 2026-08-04](release-notes/0-83-0-2026-08-04-95cfe323/README.md) — `release-notes/release-notes-python/0-83-0-2026-08-04`
+- [0.84.0 - 2026-08-18](release-notes/0-84-0-2026-08-18-0563d3e3/README.md) — `release-notes/release-notes-python/0-84-0-2026-08-18`
+- [0.85.0 - 2026-08-25](release-notes/0-85-0-2026-08-25-6cb38d39/README.md) — `release-notes/release-notes-python/0-85-0-2026-08-25`
+- [0.86.0 - 2026-09-01](release-notes/0-86-0-2026-09-01-66bc8486/README.md) — `release-notes/release-notes-python/0-86-0-2026-09-01`
+- [0.87.0 - 2026-09-22](release-notes/0-87-0-2026-09-22-6c49d2ee/README.md) — `release-notes/release-notes-python/0-87-0-2026-09-22`
+- [0.87.0 - Upcoming](release-notes/0-87-0-upcoming-f0fe45ec/README.md) — `release-notes/release-notes-python/0-87-0-upcoming`
+- [0.9.0 - 2023-03-10](release-notes/0-9-0-2023-03-10-b0524a9a/README.md) — `release-notes/release-notes-python/0-9-0-2023-03-10`
+- [Raw API](release-notes/release-notes-raw-3085c4d0/README.md) — `release-notes/release-notes-raw`
+- [0.1.0 - 2023-05-01](release-notes/0-1-0-2023-05-01-796cc735/README.md) — `release-notes/release-notes-raw/0-1-0-2023-05-01`
+- [0.2.0 - 2023-07-23](release-notes/0-2-0-2023-07-23-61d5141f/README.md) — `release-notes/release-notes-raw/0-2-0-2023-07-23`
+- [0.3.0 - 2023-10-20](release-notes/0-3-0-2023-10-20-834f4b3b/README.md) — `release-notes/release-notes-raw/0-3-0-2023-10-20`
+- [0.4.0 - 2023-11-08](release-notes/0-4-0-2023-11-08-a4c24abe/README.md) — `release-notes/release-notes-raw/0-4-0-2023-11-08`
+- [0.4.2 - 2024-01-06](release-notes/0-4-2-2024-01-06-ae492de8/README.md) — `release-notes/release-notes-raw/0-4-2-2024-01-06`
+- [0.4.3 - 2024-02-13](release-notes/0-4-3-2024-02-13-44c7d312/README.md) — `release-notes/release-notes-raw/0-4-3-2024-02-13`
+- [0.4.4 - 2024-03-23](release-notes/0-4-4-2024-03-23-3872ff8c/README.md) — `release-notes/release-notes-raw/0-4-4-2024-03-23`
+- [0.4.5 - 2024-03-25](release-notes/0-4-5-2024-03-25-280ecd99/README.md) — `release-notes/release-notes-raw/0-4-5-2024-03-25`
+- [0.4.6 - 2024-04-13](release-notes/0-4-6-2024-04-13-7f10adc9/README.md) — `release-notes/release-notes-raw/0-4-6-2024-04-13`
+- [0.5.0 - 2024-05-25](release-notes/0-5-0-2024-05-25-0cdf4766/README.md) — `release-notes/release-notes-raw/0-5-0-2024-05-25`
+- [0.5.1 - 2024-07-24](release-notes/0-5-1-2024-07-24-521e2fd9/README.md) — `release-notes/release-notes-raw/0-5-1-2024-07-24`
+- [0.5.3 - 2024-10-02](release-notes/0-5-3-2024-10-02-d5a6928a/README.md) — `release-notes/release-notes-raw/0-5-3-2024-10-02`
+- [0.5.4 - 2024-10-02](release-notes/0-5-4-2024-10-02-5e544b74/README.md) — `release-notes/release-notes-raw/0-5-4-2024-10-02`
+- [0.5.5 - 2024-12-01](release-notes/0-5-5-2024-12-01-0fa1c012/README.md) — `release-notes/release-notes-raw/0-5-5-2024-12-01`
+- [0.5.6 - 2025-04-06](release-notes/0-5-6-2025-04-06-4487225d/README.md) — `release-notes/release-notes-raw/0-5-6-2025-04-06`
+- [0.6.0 - 2025-05-24](release-notes/0-6-0-2025-05-24-0c4f89b1/README.md) — `release-notes/release-notes-raw/0-6-0-2025-05-24`
+- [0.6.1 - 2025-06-29](release-notes/0-6-1-2025-06-29-caf49e59/README.md) — `release-notes/release-notes-raw/0-6-1-2025-06-29`
+- [0.6.2 - 2025-08-02](release-notes/0-6-2-2025-08-02-9b4c18ca/README.md) — `release-notes/release-notes-raw/0-6-2-2025-08-02`
+- [0.6.3 - 2025-09-07](release-notes/0-6-3-2025-09-07-f77e4e3c/README.md) — `release-notes/release-notes-raw/0-6-3-2025-09-07`
+- [0.6.4 - 2025-09-28](release-notes/0-6-4-2025-09-28-f4e6f9d2/README.md) — `release-notes/release-notes-raw/0-6-4-2025-09-28`
+- [0.7.0 - 2025-10-26](release-notes/0-7-0-2025-10-26-e3f72eae/README.md) — `release-notes/release-notes-raw/0-7-0-2025-10-26`
+- [0.7.1 - 2025-11-09](release-notes/0-7-1-2025-11-09-3aee4b19/README.md) — `release-notes/release-notes-raw/0-7-1-2025-11-09`
+- [0.7.2 - 2025-12-14](release-notes/0-7-2-2025-12-14-2f0816d3/README.md) — `release-notes/release-notes-raw/0-7-2-2025-12-14`
+- [0.7.3 - 2026-02-10](release-notes/0-7-3-2026-02-10-4cdb2079/README.md) — `release-notes/release-notes-raw/0-7-3-2026-02-10`
+- [0.7.4 - 2026-02-15](release-notes/0-7-4-2026-02-15-9e8f8588/README.md) — `release-notes/release-notes-raw/0-7-4-2026-02-15`
+- [0.7.5 - 2026-02-28](release-notes/0-7-5-2026-02-28-f10b7e2b/README.md) — `release-notes/release-notes-raw/0-7-5-2026-02-28`
+- [0.9.0 - 2026-04-26](release-notes/0-9-0-2026-04-26-84af8197/README.md) — `release-notes/release-notes-raw/0-9-0-2026-04-26`
+- [0.9.1 - 2026-06-27](release-notes/0-9-1-2026-06-27-40e3856e/README.md) — `release-notes/release-notes-raw/0-9-1-2026-06-27`
+- [0.9.2 - 2026-07-18](release-notes/0-9-2-2026-07-18-cd879bcc/README.md) — `release-notes/release-notes-raw/0-9-2-2026-07-18`
+- [0.9.3 - 2026-08-01](release-notes/0-9-3-2026-08-01-01a9b55f/README.md) — `release-notes/release-notes-raw/0-9-3-2026-08-01`
+- [0.9.4 - Upcoming](release-notes/0-9-4-upcoming-b002613b/README.md) — `release-notes/release-notes-raw/0-9-4-upcoming`
+- [2024-06-25](release-notes/2024-06-25-0e07ee38/README.md) — `release-notes/release-notes-raw/2024-06-25`
+- [2024-07-20](release-notes/2024-07-20-92f6e5ae/README.md) — `release-notes/release-notes-raw/2024-07-20`
+- [Rust](release-notes/release-notes-rust-f62ea1fa/README.md) — `release-notes/release-notes-rust`
+- [0.1.0 - 2023-08-02](release-notes/0-1-0-2023-08-02-07457113/README.md) — `release-notes/release-notes-rust/0-1-0-2023-08-02`
+- [0.10.0 - 2024-05-22](release-notes/0-10-0-2024-05-22-3d0cd073/README.md) — `release-notes/release-notes-rust/0-10-0-2024-05-22`
+- [0.11.0 - 2024-06-04](release-notes/0-11-0-2024-06-04-733089e2/README.md) — `release-notes/release-notes-rust/0-11-0-2024-06-04`
+- [0.11.1 - 2024-06-11](release-notes/0-11-1-2024-06-11-8720a544/README.md) — `release-notes/release-notes-rust/0-11-1-2024-06-11`
+- [0.11.2 - 2024-06-25](release-notes/0-11-2-2024-06-25-da94af40/README.md) — `release-notes/release-notes-rust/0-11-2-2024-06-25`
+- [0.11.3 - 2024-07-09](release-notes/0-11-3-2024-07-09-376393b1/README.md) — `release-notes/release-notes-rust/0-11-3-2024-07-09`
+- [0.11.4 - 2024-07-16](release-notes/0-11-4-2024-07-16-42c3c7f0/README.md) — `release-notes/release-notes-rust/0-11-4-2024-07-16`
+- [0.12.0 - 2024-07-30](release-notes/0-12-0-2024-07-30-9622016d/README.md) — `release-notes/release-notes-rust/0-12-0-2024-07-30`
+- [0.12.1 - 2024-08-27](release-notes/0-12-1-2024-08-27-9207f0e1/README.md) — `release-notes/release-notes-rust/0-12-1-2024-08-27`
+- [0.13.0 - 2024-09-25](release-notes/0-13-0-2024-09-25-64d38971/README.md) — `release-notes/release-notes-rust/0-13-0-2024-09-25`
+- [0.14.0 - 2024-10-01](release-notes/0-14-0-2024-10-01-48311d70/README.md) — `release-notes/release-notes-rust/0-14-0-2024-10-01`
+- [0.14.1 - 2024-10-08](release-notes/0-14-1-2024-10-08-c0cb092f/README.md) — `release-notes/release-notes-rust/0-14-1-2024-10-08`
+- [0.15.0 - 2024-10-22](release-notes/0-15-0-2024-10-22-c2bda207/README.md) — `release-notes/release-notes-rust/0-15-0-2024-10-22`
+- [0.16.0 - 2024-11-12](release-notes/0-16-0-2024-11-12-d8bb6f3d/README.md) — `release-notes/release-notes-rust/0-16-0-2024-11-12`
+- [0.17.0 - 2024-12-17](release-notes/0-17-0-2024-12-17-bf46ae3b/README.md) — `release-notes/release-notes-rust/0-17-0-2024-12-17`
+- [0.18.0 - 2025-01-08](release-notes/0-18-0-2025-01-08-ac104a9d/README.md) — `release-notes/release-notes-rust/0-18-0-2025-01-08`
+- [0.19.0 - 2025-01-21](release-notes/0-19-0-2025-01-21-efd6e3cf/README.md) — `release-notes/release-notes-rust/0-19-0-2025-01-21`
+- [0.2.0 - 2023-08-10](release-notes/0-2-0-2023-08-10-8984faa3/README.md) — `release-notes/release-notes-rust/0-2-0-2023-08-10`
+- [0.2.1 - 2023-08-25](release-notes/0-2-1-2023-08-25-c5aed1e3/README.md) — `release-notes/release-notes-rust/0-2-1-2023-08-25`
+- [0.20.0 - 2025-02-12](release-notes/0-20-0-2025-02-12-8fa11b7f/README.md) — `release-notes/release-notes-rust/0-20-0-2025-02-12`
+- [0.21.0 - 2025-03-18](release-notes/0-21-0-2025-03-18-30623d1f/README.md) — `release-notes/release-notes-rust/0-21-0-2025-03-18`
+- [0.22.0 - 2025-04-01](release-notes/0-22-0-2025-04-01-bb2f6f23/README.md) — `release-notes/release-notes-rust/0-22-0-2025-04-01`
+- [0.23.0 - 2025-04-15](release-notes/0-23-0-2025-04-15-cb0b02d1/README.md) — `release-notes/release-notes-rust/0-23-0-2025-04-15`
+- [0.24.0 - 2025-04-22](release-notes/0-24-0-2025-04-22-9db8e4df/README.md) — `release-notes/release-notes-rust/0-24-0-2025-04-22`
+- [0.25.0 - 2025-05-13](release-notes/0-25-0-2025-05-13-02bbf005/README.md) — `release-notes/release-notes-rust/0-25-0-2025-05-13`
+- [0.26.0 - 2025-05-28](release-notes/0-26-0-2025-05-28-d00990ca/README.md) — `release-notes/release-notes-rust/0-26-0-2025-05-28`
+- [0.26.1 - 2025-05-30](release-notes/0-26-1-2025-05-30-e4b8dee0/README.md) — `release-notes/release-notes-rust/0-26-1-2025-05-30`
+- [0.26.2 - 2025-06-03](release-notes/0-26-2-2025-06-03-50973b5e/README.md) — `release-notes/release-notes-rust/0-26-2-2025-06-03`
+- [0.27.0 - 2025-06-10](release-notes/0-27-0-2025-06-10-a2b51c5e/README.md) — `release-notes/release-notes-rust/0-27-0-2025-06-10`
+- [0.27.1 - 2025-06-25](release-notes/0-27-1-2025-06-25-4e4da1cc/README.md) — `release-notes/release-notes-rust/0-27-1-2025-06-25`
+- [0.28.0 - 2025-07-01](release-notes/0-28-0-2025-07-01-75b37d0b/README.md) — `release-notes/release-notes-rust/0-28-0-2025-07-01`
+- [0.29.0 - 2025-07-15](release-notes/0-29-0-2025-07-15-83c06c31/README.md) — `release-notes/release-notes-rust/0-29-0-2025-07-15`
+- [0.3.0 - 2023-09-13](release-notes/0-3-0-2023-09-13-4292b566/README.md) — `release-notes/release-notes-rust/0-3-0-2023-09-13`
+- [0.30.0 - 2025-07-22](release-notes/0-30-0-2025-07-22-f4c23033/README.md) — `release-notes/release-notes-rust/0-30-0-2025-07-22`
+- [0.31.0 - 2025-07-30](release-notes/0-31-0-2025-07-30-1ef4e574/README.md) — `release-notes/release-notes-rust/0-31-0-2025-07-30`
+- [0.32.0 - 2025-08-12](release-notes/0-32-0-2025-08-12-7f584f7a/README.md) — `release-notes/release-notes-rust/0-32-0-2025-08-12`
+- [0.33.0 - 2025-08-19](release-notes/0-33-0-2025-08-19-bfecb190/README.md) — `release-notes/release-notes-rust/0-33-0-2025-08-19`
+- [0.33.1 - 2025-08-26](release-notes/0-33-1-2025-08-26-944134c4/README.md) — `release-notes/release-notes-rust/0-33-1-2025-08-26`
+- [0.34.0 - 2025-09-23](release-notes/0-34-0-2025-09-23-477a76a4/README.md) — `release-notes/release-notes-rust/0-34-0-2025-09-23`
+- [0.34.1 - 2025-09-30](release-notes/0-34-1-2025-09-30-f3213c5f/README.md) — `release-notes/release-notes-rust/0-34-1-2025-09-30`
+- [0.35.0 - 2025-10-22](release-notes/0-35-0-2025-10-22-7fe91273/README.md) — `release-notes/release-notes-rust/0-35-0-2025-10-22`
+- [0.36.0 - 2025-11-19](release-notes/0-36-0-2025-11-19-f2fed3a0/README.md) — `release-notes/release-notes-rust/0-36-0-2025-11-19`
+- [0.37.0 - 2025-12-09](release-notes/0-37-0-2025-12-09-c68bd518/README.md) — `release-notes/release-notes-rust/0-37-0-2025-12-09`
+- [0.38.0 - 2025-12-16](release-notes/0-38-0-2025-12-16-f51e0154/README.md) — `release-notes/release-notes-rust/0-38-0-2025-12-16`
+- [0.39.0 - 2026-01-20](release-notes/0-39-0-2026-01-20-1174b32b/README.md) — `release-notes/release-notes-rust/0-39-0-2026-01-20`
+- [0.4.0 - 2023-09-21](release-notes/0-4-0-2023-09-21-45d1317f/README.md) — `release-notes/release-notes-rust/0-4-0-2023-09-21`
+- [0.4.1 - 2023-10-06](release-notes/0-4-1-2023-10-06-f5f3f5e0/README.md) — `release-notes/release-notes-rust/0-4-1-2023-10-06`
+- [0.4.2 - 2023-10-23](release-notes/0-4-2-2023-10-23-685716e6/README.md) — `release-notes/release-notes-rust/0-4-2-2023-10-23`
+- [0.40.0 - 2026-01-27](release-notes/0-40-0-2026-01-27-a61925c1/README.md) — `release-notes/release-notes-rust/0-40-0-2026-01-27`
+- [0.41.0 - 2026-02-18](release-notes/0-41-0-2026-02-18-9b75d2ab/README.md) — `release-notes/release-notes-rust/0-41-0-2026-02-18`
+- [0.42.0 - 2026-02-24](release-notes/0-42-0-2026-02-24-168809c8/README.md) — `release-notes/release-notes-rust/0-42-0-2026-02-24`
+- [0.43.0 - 2026-03-04](release-notes/0-43-0-2026-03-04-df85a79f/README.md) — `release-notes/release-notes-rust/0-43-0-2026-03-04`
+- [0.44.0 - 2026-03-17](release-notes/0-44-0-2026-03-17-87aa5e31/README.md) — `release-notes/release-notes-rust/0-44-0-2026-03-17`
+- [0.45.0 - 2026-03-31](release-notes/0-45-0-2026-03-31-afbba4d4/README.md) — `release-notes/release-notes-rust/0-45-0-2026-03-31`
+- [0.46.0 - 2026-04-07](release-notes/0-46-0-2026-04-07-45bd008b/README.md) — `release-notes/release-notes-rust/0-46-0-2026-04-07`
+- [0.47.0 - 2026-04-15](release-notes/0-47-0-2026-04-15-80f1358e/README.md) — `release-notes/release-notes-rust/0-47-0-2026-04-15`
+- [0.48.0 - 2026-04-21](release-notes/0-48-0-2026-04-21-c45c03b0/README.md) — `release-notes/release-notes-rust/0-48-0-2026-04-21`
+- [0.49.0 - 2026-04-29](release-notes/0-49-0-2026-04-29-87f2c8b8/README.md) — `release-notes/release-notes-rust/0-49-0-2026-04-29`
+- [0.5.0 - 2023-11-23](release-notes/0-5-0-2023-11-23-a45f4a46/README.md) — `release-notes/release-notes-rust/0-5-0-2023-11-23`
+- [0.50.0 - 2026-05-05](release-notes/0-50-0-2026-05-05-631c2873/README.md) — `release-notes/release-notes-rust/0-50-0-2026-05-05`
+- [0.51.0 - 2026-05-12](release-notes/0-51-0-2026-05-12-879edb09/README.md) — `release-notes/release-notes-rust/0-51-0-2026-05-12`
+- [0.52.0 - 2026-05-26](release-notes/0-52-0-2026-05-26-439d87e4/README.md) — `release-notes/release-notes-rust/0-52-0-2026-05-26`
+- [0.53.0 - 2026-06-02](release-notes/0-53-0-2026-06-02-f0557471/README.md) — `release-notes/release-notes-rust/0-53-0-2026-06-02`
+- [0.54.0 - 2026-07-07](release-notes/0-54-0-2026-07-07-4413b215/README.md) — `release-notes/release-notes-rust/0-54-0-2026-07-07`
+- [0.55.0 - 2026-07-14](release-notes/0-55-0-2026-07-14-c51dcb7f/README.md) — `release-notes/release-notes-rust/0-55-0-2026-07-14`
+- [0.56.0 - 2026-07-28](release-notes/0-56-0-2026-07-28-a93a4877/README.md) — `release-notes/release-notes-rust/0-56-0-2026-07-28`
+- [0.57.0 - 2026-08-04](release-notes/0-57-0-2026-08-04-5eebb60a/README.md) — `release-notes/release-notes-rust/0-57-0-2026-08-04`
+- [0.58.0 - 2026-08-11](release-notes/0-58-0-2026-08-11-858636f2/README.md) — `release-notes/release-notes-rust/0-58-0-2026-08-11`
+- [0.59.0 - 2026-08-18](release-notes/0-59-0-2026-08-18-8e5f99f7/README.md) — `release-notes/release-notes-rust/0-59-0-2026-08-18`
+- [0.6.0 - 2024-01-16](release-notes/0-6-0-2024-01-16-535f1e43/README.md) — `release-notes/release-notes-rust/0-6-0-2024-01-16`
+- [0.60.0 - 2026-08-25](release-notes/0-60-0-2026-08-25-880362d0/README.md) — `release-notes/release-notes-rust/0-60-0-2026-08-25`
+- [0.61.0 - 2026-09-01](release-notes/0-61-0-2026-09-01-eca443a0/README.md) — `release-notes/release-notes-rust/0-61-0-2026-09-01`
+- [0.62.0 - 2026-09-21](release-notes/0-62-0-2026-09-21-fe457782/README.md) — `release-notes/release-notes-rust/0-62-0-2026-09-21`
+- [0.63.0 - 2026-09-29](release-notes/0-63-0-2026-09-29-5860ade2/README.md) — `release-notes/release-notes-rust/0-63-0-2026-09-29`
+- [0.7.0 - 2024-03-01](release-notes/0-7-0-2024-03-01-b29c0ec2/README.md) — `release-notes/release-notes-rust/0-7-0-2024-03-01`
+- [0.7.1 - 2024-03-05](release-notes/0-7-1-2024-03-05-933d92e2/README.md) — `release-notes/release-notes-rust/0-7-1-2024-03-05`
+- [0.8.0 - 2024-04-01](release-notes/0-8-0-2024-04-01-8d385b57/README.md) — `release-notes/release-notes-rust/0-8-0-2024-04-01`
+- [0.9.0 - 2024-05-14](release-notes/0-9-0-2024-05-14-92ce3e0b/README.md) — `release-notes/release-notes-rust/0-9-0-2024-05-14`
+- [0.9.1 - 2024-05-15](release-notes/0-9-1-2024-05-15-946b4e33/README.md) — `release-notes/release-notes-rust/0-9-1-2024-05-15`
+- [0.68.1 - 2026-09-30](release-notes/changelog-md-9e8a3c3c/README.md) — `/databento/databento-cpp/blob/main/CHANGELOG.md`
+
+## schemas-and-data-formats (16 routes)
+
+- [Schemas and data formats](schemas-and-data-formats/schemas-and-data-formats-2fb2a3e5/README.md) — `schemas-and-data-formats`
+- [Adjustment factors](schemas-and-data-formats/adjustment-factors-f56ad1e5/README.md) — `schemas-and-data-formats/adjustment-factors`
+- [BBO on interval (BBO)](schemas-and-data-formats/bbo-752cfe48/README.md) — `schemas-and-data-formats/bbo`
+- [Corporate actions](schemas-and-data-formats/corporate-actions-f3c9f6f9/README.md) — `schemas-and-data-formats/corporate-actions`
+- [Imbalance](schemas-and-data-formats/imbalance-bc7143bc/README.md) — `schemas-and-data-formats/imbalance`
+- [Instrument definitions](schemas-and-data-formats/instrument-definitions-2c39f92e/README.md) — `schemas-and-data-formats/instrument-definitions`
+- [Market by order (MBO)](schemas-and-data-formats/mbo-c0665702/README.md) — `schemas-and-data-formats/mbo`
+- [Market by price (MBP-1)](schemas-and-data-formats/mbp-1-a766440c/README.md) — `schemas-and-data-formats/mbp-1`
+- [Market by price (MBP-10)](schemas-and-data-formats/mbp-10-31a09e88/README.md) — `schemas-and-data-formats/mbp-10`
+- [Aggregate bars (OHLCV)](schemas-and-data-formats/ohlcv-05f94e48/README.md) — `schemas-and-data-formats/ohlcv`
+- [Security master](schemas-and-data-formats/security-master-cb70105a/README.md) — `schemas-and-data-formats/security-master`
+- [Statistics](schemas-and-data-formats/statistics-cc3331a7/README.md) — `schemas-and-data-formats/statistics`
+- [Status](schemas-and-data-formats/status-d7fe7b90/README.md) — `schemas-and-data-formats/status`
+- [BBO on trade (TBBO)](schemas-and-data-formats/tbbo-48fd7514/README.md) — `schemas-and-data-formats/tbbo`
+- [Trades](schemas-and-data-formats/trades-96e3edce/README.md) — `schemas-and-data-formats/trades`
+- [What's a schema?](schemas-and-data-formats/whats-a-schema-e40ef7e5/README.md) — `schemas-and-data-formats/whats-a-schema`
+
+## standards-and-conventions (9 routes)
+
+- [Standards and conventions](standards-and-conventions/standards-and-conventions-56112e20/README.md) — `standards-and-conventions`
+- [Common fields, enums and types](standards-and-conventions/common-fields-enums-types-53351cb3/README.md) — `standards-and-conventions/common-fields-enums-types`
+- [Corporate actions events](standards-and-conventions/corporate-actions-events-49dd3b83/README.md) — `standards-and-conventions/corporate-actions-events`
+- [Databento Binary Encoding](standards-and-conventions/databento-binary-encoding-7c2e63b8/README.md) — `standards-and-conventions/databento-binary-encoding`
+- [MBO snapshots](standards-and-conventions/mbo-snapshot-7a67cbb4/README.md) — `standards-and-conventions/mbo-snapshot`
+- [Normalization](standards-and-conventions/normalization-ace62328/README.md) — `standards-and-conventions/normalization`
+- [Reference data enums](standards-and-conventions/reference-data-enums-179fcaa7/README.md) — `standards-and-conventions/reference-data-enums`
+- [Symbology](standards-and-conventions/symbology-ab862778/README.md) — `standards-and-conventions/symbology`
+- [Zstandard (zstd)](standards-and-conventions/working-with-zstandard-ff93f032/README.md) — `standards-and-conventions/working-with-zstandard`
+
+## venues-and-datasets (40 routes)
+
+- [Venues and datasets](venues-and-datasets/venues-and-datasets-7d189158/README.md) — `venues-and-datasets`
+- [Adjustment factors](venues-and-datasets/adjustment-factors-abc863a6/README.md) — `venues-and-datasets/adjustment-factors`
+- [NYSE Arca Integrated](venues-and-datasets/arcx-pillar-f0d9454e/README.md) — `venues-and-datasets/arcx-pillar`
+- [Cboe BZX Depth](venues-and-datasets/bats-pitch-3ed800fd/README.md) — partially unfinished upstream — `venues-and-datasets/bats-pitch`
+- [Cboe BYX Depth](venues-and-datasets/baty-pitch-7471f82a/README.md) — partially unfinished upstream — `venues-and-datasets/baty-pitch`
+- [CGIF Crypto Currency](venues-and-datasets/cccy-cgif-4640b606/README.md) — `venues-and-datasets/cccy-cgif`
+- [CGIF Cboe Global Indices](venues-and-datasets/cgi-cgif-548d9c82/README.md) — `venues-and-datasets/cgi-cgif`
+- [Corporate actions](venues-and-datasets/corporate-actions-e23b2d27/README.md) — `venues-and-datasets/corporate-actions`
+- [Databento Core Indices - CGIF](venues-and-datasets/dbix-cgif-8b3cf556/README.md) — `venues-and-datasets/dbix-cgif`
+- [Cboe EDGA Depth](venues-and-datasets/edga-pitch-b3685280/README.md) — partially unfinished upstream — `venues-and-datasets/edga-pitch`
+- [Cboe EDGX Depth](venues-and-datasets/edgx-pitch-a699d462/README.md) — partially unfinished upstream — `venues-and-datasets/edgx-pitch`
+- [MIAX Pearl Depth of Market](venues-and-datasets/eprl-dom-aaad4758/README.md) — partially unfinished upstream — `venues-and-datasets/eprl-dom`
+- [Databento US Equities Mini](venues-and-datasets/equs-mini-87b3966d/README.md) — `venues-and-datasets/equs-mini`
+- [Databento US Equities Summary](venues-and-datasets/equs-summary-636ff00d/README.md) — `venues-and-datasets/equs-summary`
+- [CGIF FTSE Russell](venues-and-datasets/ftse-cgif-670c9990/README.md) — `venues-and-datasets/ftse-cgif`
+- [CME Globex MDP 3.0](venues-and-datasets/glbx-mdp3-9a5e7580/README.md) — `venues-and-datasets/glbx-mdp3`
+- [IEX TOPS](venues-and-datasets/iexg-tops-61651d02/README.md) — partially unfinished upstream — `venues-and-datasets/iexg-tops`
+- [ICE Europe Commodities](venues-and-datasets/ifeu-impact-9eaa4279/README.md) — `venues-and-datasets/ifeu-impact`
+- [ICE Europe Financials](venues-and-datasets/ifll-impact-fb0923fa/README.md) — `venues-and-datasets/ifll-impact`
+- [ICE Futures US](venues-and-datasets/ifus-impact-a1340e40/README.md) — `venues-and-datasets/ifus-impact`
+- [CGIF Intraday Net Asset Values](venues-and-datasets/inav-cgif-571c3b1d/README.md) — `venues-and-datasets/inav-cgif`
+- [CGIF Main Feed](venues-and-datasets/main-cgif-1a8089b9/README.md) — `venues-and-datasets/main-cgif`
+- [MEMX MEMOIR Depth](venues-and-datasets/memx-memoir-914400ae/README.md) — partially unfinished upstream — `venues-and-datasets/memx-memoir`
+- [CGIF MSCI](venues-and-datasets/msci-cgif-1b9c9166/README.md) — `venues-and-datasets/msci-cgif`
+- [CGIF Morningstar](venues-and-datasets/mstar-cgif-0065c0db/README.md) — `venues-and-datasets/mstar-cgif`
+- [ICE Endex](venues-and-datasets/ndex-impact-b3933348/README.md) — `venues-and-datasets/ndex-impact`
+- [Blue Ocean ATS MEMOIR Depth](venues-and-datasets/ocea-memoir-8a8f4e1a/README.md) — `venues-and-datasets/ocea-memoir`
+- [OPRA](venues-and-datasets/opra-pillar-875076a3/README.md) — `venues-and-datasets/opra-pillar`
+- [Security master](venues-and-datasets/security-master-1997daa5/README.md) — partially unfinished upstream — `venues-and-datasets/security-master`
+- [NYSE American Integrated](venues-and-datasets/xase-pillar-f266b884/README.md) — `venues-and-datasets/xase-pillar`
+- [Nasdaq Texas TotalView-ITCH](venues-and-datasets/xbos-itch-55d5aeb7/README.md) — `venues-and-datasets/xbos-itch`
+- [CFE](venues-and-datasets/xcbf-pitch-1e6c90ef/README.md) — `venues-and-datasets/xcbf-pitch`
+- [NYSE Texas Integrated](venues-and-datasets/xchi-pillar-033c6f86/README.md) — `venues-and-datasets/xchi-pillar`
+- [NYSE National Trades and BBO](venues-and-datasets/xcis-tradesbbo-5e514fda/README.md) — partially unfinished upstream — `venues-and-datasets/xcis-tradesbbo`
+- [European Energy Exchange](venues-and-datasets/xeee-eobi-095bac6f/README.md) — `venues-and-datasets/xeee-eobi`
+- [Eurex](venues-and-datasets/xeur-eobi-b21fe5ea/README.md) — `venues-and-datasets/xeur-eobi`
+- [Nasdaq Basic with NLS Plus](venues-and-datasets/xnas-basic-ff3b583e/README.md) — `venues-and-datasets/xnas-basic`
+- [Nasdaq TotalView-ITCH](venues-and-datasets/xnas-itch-88bfd268/README.md) — `venues-and-datasets/xnas-itch`
+- [NYSE Integrated](venues-and-datasets/xnys-pillar-49f999bb/README.md) — `venues-and-datasets/xnys-pillar`
+- [Nasdaq PSX TotalView-ITCH](venues-and-datasets/xpsx-itch-d6d71333/README.md) — `venues-and-datasets/xpsx-itch`

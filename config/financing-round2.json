@@ -1,0 +1,283 @@
+{
+  "schema": 1,
+  "study": "financing-round2",
+  "protocol": "docs/massive/financing-round2-plan.md",
+  "start": "2022-01-01",
+  "end": "2025-12-31",
+  "mode": "development",
+  "seed": 2324251004,
+  "studies": [
+    {
+      "id": "H23",
+      "folder": "H23 - Debt Issuance Option Repricing",
+      "labels": [
+        "debt_issuance"
+      ],
+      "delay": 1
+    },
+    {
+      "id": "H24",
+      "folder": "H24 - Credit Facility Risk Repricing",
+      "labels": [
+        "credit_facility"
+      ],
+      "delay": 0
+    },
+    {
+      "id": "H25",
+      "folder": "H25 - Debt Underwriting Interaction",
+      "labels": [
+        "debt_issuance",
+        "underwriting_agreement"
+      ],
+      "same_filing": true,
+      "delay": 1,
+      "component_controls": [
+        "debt_issuance",
+        "underwriting_agreement"
+      ]
+    }
+  ],
+  "shapes": [
+    "covered_call",
+    "protective_put"
+  ],
+  "primary_horizon": 10,
+  "horizons": [
+    1,
+    2,
+    3,
+    5,
+    10,
+    21,
+    42,
+    63
+  ],
+  "variants": [
+    {
+      "id": "primary",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.05,
+      "extra_delay": 0,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "double_cost",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.05,
+      "extra_delay": 0,
+      "cost_multiplier": 2,
+      "contracts": 1
+    },
+    {
+      "id": "delay1",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.05,
+      "extra_delay": 1,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "delay3",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.05,
+      "extra_delay": 3,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "delay5",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.05,
+      "extra_delay": 5,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "dte30",
+      "dte": 30,
+      "range": [
+        21,
+        45
+      ],
+      "otm": 0.05,
+      "extra_delay": 0,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "dte60",
+      "dte": 60,
+      "range": [
+        45,
+        90
+      ],
+      "otm": 0.05,
+      "extra_delay": 0,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "otm3",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.03,
+      "extra_delay": 0,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "otm10",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.1,
+      "extra_delay": 0,
+      "cost_multiplier": 1,
+      "contracts": 1
+    },
+    {
+      "id": "assignment_stress",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.05,
+      "extra_delay": 0,
+      "cost_multiplier": 1,
+      "contracts": 1,
+      "assignment": "all_itm_pre_dividend"
+    },
+    {
+      "id": "size10",
+      "dte": 120,
+      "range": [
+        90,
+        180
+      ],
+      "otm": 0.05,
+      "extra_delay": 0,
+      "cost_multiplier": 1,
+      "contracts": 10
+    }
+  ],
+  "initial_cash": 1000000,
+  "name_limit": 0.05,
+  "sector_limit": 0.2,
+  "gross_limit": 0.2,
+  "drawdown_limit": 0.05,
+  "cooldown_sessions": 21,
+  "stock_friction": 0.0006,
+  "option_friction": 0.05,
+  "option_fee": 0.65,
+  "minimum_prior_option_volume": 100,
+  "minimum_prior_stock_volume": 10000,
+  "max_mark_carry_sessions": 1,
+  "exit_retry_sessions": 5,
+  "ordinary_lookback": [
+    84,
+    252
+  ],
+  "component_lookback": [
+    84,
+    504
+  ],
+  "ordinary_no_bundle_sessions": 5,
+  "match_max_z": 2,
+  "match_dte_days": 30,
+  "match_otm": 0.01,
+  "match_premium_factor": 2,
+  "quote_max_age_seconds": 60,
+  "quote_max_relative_spread": 0.25,
+  "quote_synchrony_seconds": 5,
+  "quote_pairs_per_year": 64,
+  "quote_impact": 0.01,
+  "minimum_pairs": 30,
+  "minimum_issuers": 8,
+  "minimum_year_pairs": 10,
+  "minimum_year_issuers": 5,
+  "resamples": 9999,
+  "blocks": [
+    63,
+    126
+  ],
+  "timing_placebos": 199,
+  "primary_family_size": 19,
+  "practical_call_overlay": 0.001,
+  "practical_put_downside": 0.0025,
+  "maximum_put_return_drag": 0.005,
+  "synthetic_null_replicas": 100,
+  "synthetic_null_max_rejections": 10,
+  "ridge_penalty": 10,
+  "acquisition_new_request_cap_phase": 20000,
+  "acquisition_minimum_interval_seconds": 0.5,
+  "acquisition_workers": 8,
+  "pilot_events_per_study_year": 4,
+  "pilot_workers": 4,
+  "initial_workers": 16,
+  "absolute_worker_cap": 64,
+  "worker_memory_gb": 8,
+  "worker_hours": 2,
+  "exposed_windows": [
+    [
+      "2022-01-01",
+      "2025-12-31"
+    ],
+    [
+      "2026-01-01",
+      "2026-10-02"
+    ]
+  ],
+  "fresh_final_oos_available": false,
+  "quote_stock_fee": 0.0001,
+  "quote_stock_impact": 0.0001,
+  "pilot_task_spec": [
+    [
+      "H23",
+      "primary"
+    ],
+    [
+      "H24",
+      "primary"
+    ],
+    [
+      "H25",
+      "primary"
+    ],
+    [
+      "H23",
+      "double_cost"
+    ]
+  ],
+  "placebo_session_offset_range": [
+    5,
+    63
+  ]
+}

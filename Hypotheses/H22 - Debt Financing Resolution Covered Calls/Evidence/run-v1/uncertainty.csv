@@ -1,0 +1,5 @@
+block,issuers,pairs,status,target
+63,0,0,insufficient_support,covered_call_increment
+63,0,0,insufficient_support,overlay_increment
+126,0,0,insufficient_support,covered_call_increment
+126,0,0,insufficient_support,overlay_increment

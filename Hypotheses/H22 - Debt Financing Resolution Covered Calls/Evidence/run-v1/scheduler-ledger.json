@@ -1,0 +1,41 @@
+{
+  "manifest_id": "6a5e82aa93607a3d4e79444418fb65a23c54b460377c3b92ae4c8f590a85c0a7",
+  "code_commit": "f6fe1d1",
+  "archive_sha256": "06a3ac5ea51e1407eed3c517b836c85419064eb8881790d3a97b4ce7ecf4b45d",
+  "installer_sha256": "5ff4d9d7990f0b64d7231f32ce576c0541a34c98e0bc49776684a355fa54caac",
+  "verified_installed_members": 4875,
+  "pilot_job": "44663033",
+  "pilot_states": [
+    "COMPLETED 0:0",
+    "COMPLETED 0:0",
+    "COMPLETED 0:0",
+    "COMPLETED 0:0"
+  ],
+  "pilot_elapsed_seconds": [
+    17,
+    17,
+    17,
+    17
+  ],
+  "pilot_max_rss_kib": [
+    244284,
+    244268,
+    244176,
+    243772
+  ],
+  "array_job": "44663110",
+  "analysis_job": "44663142",
+  "return_job": "44663156",
+  "qos": "ai-workshop",
+  "qos_grp_tres": "cpu=250,gres/gpu=5,mem=2000000M",
+  "array_concurrency": 16,
+  "array_state": "COMPLETED 0:0 for all24tasks",
+  "provenance": "Observed authenticated HiPerGator shell UI on October4,2026; pending final scheduler verification",
+  "analysis_state": "COMPLETED 0:0",
+  "analysis_elapsed_seconds": 17,
+  "return_state": "COMPLETED 0:0",
+  "return_elapsed_seconds": 7,
+  "return_sha256": "5df0706ef66abcfdb6d1a328c43cda3103423b0e529e761edb40bc638b12937b",
+  "verified_return_members": 150,
+  "verified_completed_receipts": 25
+}

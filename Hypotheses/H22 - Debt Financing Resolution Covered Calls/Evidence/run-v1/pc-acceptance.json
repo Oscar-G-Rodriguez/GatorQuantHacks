@@ -1,0 +1,13 @@
+{
+  "manifest_id": "6a5e82aa93607a3d4e79444418fb65a23c54b460377c3b92ae4c8f590a85c0a7",
+  "scheduler_tasks": "all24 COMPLETED0:0",
+  "analysis_return": "both COMPLETED0:0",
+  "whole_archive": "verified",
+  "member_hashes": "150 verified returned members",
+  "completed_receipts": "25 verified",
+  "trade_ledger_reconciliation": "precomputed PEP trade net861.0304000000014 agrees with portfolio NAV PnL861.0303999999305 within floating-point precision",
+  "statistical_calibration": "FAIL12/100; inferential claims suppressed",
+  "fresh_rerun_from_empty": "not performed; pilot task checkpoints verified in full array",
+  "independent_oos": "unavailable",
+  "verdict": "INCONCLUSIVE development evidence"
+}

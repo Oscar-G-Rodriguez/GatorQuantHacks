@@ -1,0 +1,2 @@
+# Preserve the retained report's byte offsets and treat it as a binary artifact.
+output/pdf/massive-mechanisms-round1.pdf binary

@@ -1,0 +1,7 @@
+clock,fits,interpretation,issuers,pairs,reason,residual_increment,shape,status,study,training_observations,variant,year
+each event and control predicted in its own calendar fold,{},conditional residual diagnostic; not full factor alpha,0,0,earlier_fit_or_validation_floor,,covered_call,insufficient_support,H23,0,primary,2023
+each event and control predicted in its own calendar fold,{},conditional residual diagnostic; not full factor alpha,0,0,earlier_fit_or_validation_floor,,covered_call,insufficient_support,H23,0,primary,2024
+each event and control predicted in its own calendar fold,{},conditional residual diagnostic; not full factor alpha,0,0,earlier_fit_or_validation_floor,,covered_call,insufficient_support,H23,0,primary,2025
+each event and control predicted in its own calendar fold,{},conditional residual diagnostic; not full factor alpha,0,0,earlier_fit_or_validation_floor,,protective_put,insufficient_support,H23,0,primary,2023
+each event and control predicted in its own calendar fold,{},conditional residual diagnostic; not full factor alpha,0,0,earlier_fit_or_validation_floor,,protective_put,insufficient_support,H23,0,primary,2024
+each event and control predicted in its own calendar fold,{},conditional residual diagnostic; not full factor alpha,0,0,earlier_fit_or_validation_floor,,protective_put,insufficient_support,H23,0,primary,2025

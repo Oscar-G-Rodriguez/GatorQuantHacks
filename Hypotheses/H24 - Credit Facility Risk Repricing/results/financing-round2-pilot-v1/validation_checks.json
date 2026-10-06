@@ -1,0 +1,66 @@
+{
+  "study": "H24",
+  "checks": [
+    {
+      "id": "S01",
+      "status": "implemented_assumed_clock",
+      "reason": "filing+1 alignment; delayed decision; next-close fill; aligned unit counterfactuals"
+    },
+    {
+      "id": "S02",
+      "status": "pending_fresh_confirmation",
+      "reason": "2022\u20132025 development and exposed 2026 are not fresh final tests"
+    },
+    {
+      "id": "S03",
+      "status": "insufficient_support",
+      "reason": "prior-year purged ridge10 signed/absolute stock outcomes; no trading optimization"
+    },
+    {
+      "id": "S04",
+      "status": "insufficient_support",
+      "reason": "earlier-history prior-volatility/momentum terciles; registered horizons/settings, sparse and expired cells retained"
+    },
+    {
+      "id": "S05",
+      "status": "partial",
+      "reason": "paired stock-only, zero-interest cash and matched ordinary comparisons; risk-matched SPY and prior-momentum funded benchmarks pending"
+    },
+    {
+      "id": "S06",
+      "status": "completed_descriptive",
+      "reason": "fixed stock-overlay/component contrasts and earlier-fit label addition; support shown per cell"
+    },
+    {
+      "id": "S07",
+      "status": "insufficient_support",
+      "reason": "earlier-fit Massive market/option conditional return residuals; no full-factor-alpha claim"
+    },
+    {
+      "id": "S08",
+      "status": "pending_or_failed_calibration",
+      "reason": "19 declared effects, joint9999 two-block draws, simultaneous bounds and stepdown; calibration:fail"
+    },
+    {
+      "id": "S09",
+      "status": "pending",
+      "reason": "0/199 exact shifted-source timing replicas complete"
+    },
+    {
+      "id": "S10",
+      "status": "completed_diagnostic",
+      "reason": "fixed variants/year/issuer omissions, earlier-fit states and common-shape intersection; no favorable variant selected; unsupported cells visible"
+    },
+    {
+      "id": "S11",
+      "status": "partial_executable_evidence",
+      "reason": "20 bounded quote-proxy strategy outcomes; daily-close fills and assignment assumptions are not execution proof"
+    },
+    {
+      "id": "S12",
+      "status": "verified_outputs_partial_research",
+      "reason": "4/4 scoped tasks verified; full plan33; scheduler/import verification belongs to immutable transfer receipts"
+    }
+  ],
+  "fresh_final_oos_available": false
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_id": "2f1dc336455036a3b2ca09ae38f44b90df2d59a6e83ed4ec76d4144ce46f5740",
+  "tasks": [
+    {
+      "task": 0,
+      "receipt": "81a7aea938c5193f4094dfd373d2ea84f4a77ff0ff1ed5b9adabe327a3ccbeb1"
+    },
+    {
+      "task": 1,
+      "receipt": "40a3f9316f0a7217b9cb00e698860b59ec8612f9ce75c0982e26f26ee081ae66"
+    },
+    {
+      "task": 2,
+      "receipt": "322764aa7f4fafecc7e3a879486fe167f55948124b19b978e2c1f725f507e4fd"
+    },
+    {
+      "task": 3,
+      "receipt": "f74a580fed4fd2b5fa1b309aab17b5df0c3cd412e65b81aaeefde2f55ff0a876"
+    }
+  ],
+  "calibration": "1390ddfddd48cf27339009a81600e4828010fd617c4e41ad3fc654a597611d4c",
+  "placebos": {}
+}

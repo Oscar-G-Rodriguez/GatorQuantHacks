@@ -1,0 +1,122 @@
+[
+  {
+    "method": "S01",
+    "implemented": true,
+    "executed": true,
+    "status": "pending",
+    "criterion_met": false,
+    "reason": "Measured clock/entry integrity; historical vendor delivery clock remains assumed",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S02",
+    "implemented": true,
+    "executed": true,
+    "status": "pending",
+    "criterion_met": false,
+    "reason": "Development-only run; no available unseen final OOS, and final-OOS entry point refuses reuse",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S03",
+    "implemented": true,
+    "executed": true,
+    "status": "pending",
+    "criterion_met": false,
+    "reason": "Completion coverage and prior-year prediction ablation",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S04",
+    "implemented": true,
+    "executed": true,
+    "status": "pass",
+    "criterion_met": null,
+    "reason": "All registered horizon/delay cells retained",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S05",
+    "implemented": true,
+    "executed": true,
+    "status": "pass",
+    "criterion_met": null,
+    "reason": "Ordinary covered calls, same-date stocks, fixed price/option gates and cash",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S06",
+    "implemented": true,
+    "executed": true,
+    "status": "pass",
+    "criterion_met": null,
+    "reason": "Common paired net returns and overlay difference-in-differences",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S07",
+    "implemented": true,
+    "executed": true,
+    "status": "pass",
+    "criterion_met": null,
+    "reason": "Stock/option decomposition and SPY-only descriptive HAC attribution; unmeasured factors remain",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S08",
+    "implemented": true,
+    "executed": true,
+    "status": "fail",
+    "criterion_met": null,
+    "reason": "Joint issuer/calendar resamples and separate max-t families; failed synthetic-null calibration suppresses inferential claims, and sparse groups remain unsupported",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S09",
+    "implemented": true,
+    "executed": true,
+    "status": "pass",
+    "criterion_met": null,
+    "reason": "Planned and shifted controls, observed-bundle timing permutations; scope is conditional coverage",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S10",
+    "implemented": true,
+    "executed": true,
+    "status": "pass",
+    "criterion_met": null,
+    "reason": "Fixed neighbors/cost/delay/assignment/year and issuer checks; no optimizer",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S11",
+    "implemented": true,
+    "executed": true,
+    "status": "pending",
+    "criterion_met": false,
+    "reason": "Funding, costs, dividends, modelled assignment and unfilled/unresolved positions; executable capture unproven",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  },
+  {
+    "method": "S12",
+    "implemented": true,
+    "executed": true,
+    "status": "pending",
+    "criterion_met": false,
+    "reason": "Compute receipts/member hashes verified; scheduler terminal proof and PC return verification recorded separately",
+    "implementation": "research.py / strategy.py / analysis.py / pipeline.py",
+    "evidence": "aggregate outputs and task receipts"
+  }
+]

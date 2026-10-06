@@ -1,0 +1,27 @@
+{
+  "manifest_id": "2f1dc336455036a3b2ca09ae38f44b90df2d59a6e83ed4ec76d4144ce46f5740",
+  "datasets": 100,
+  "draws_per_dataset": 9999,
+  "declared_family_size": 19,
+  "blocks": [
+    {
+      "block": 63,
+      "datasets": 100,
+      "completed": 100,
+      "false_rejections": 45,
+      "maximum_allowed": 10,
+      "status": "fail"
+    },
+    {
+      "block": 126,
+      "datasets": 100,
+      "completed": 100,
+      "false_rejections": 72,
+      "maximum_allowed": 10,
+      "status": "fail"
+    }
+  ],
+  "status": "fail",
+  "fixture": "serial histories/shared calendar shocks/reused controls/overlapping cohorts",
+  "scope": "synthetic estimator calibration, not empirical signal evidence"
+}

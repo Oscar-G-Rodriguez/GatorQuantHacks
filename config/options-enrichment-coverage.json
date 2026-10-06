@@ -1,0 +1,23 @@
+{
+  "purpose": "Free access/cost check for optional Massive-track enrichment; metadata visibility does not establish data download entitlement",
+  "databento_calls": [
+    {"label": "schemas", "method": "metadata.list_schemas", "params": {"dataset": "OPRA.PILLAR"}},
+    {"label": "range", "method": "metadata.get_dataset_range", "params": {"dataset": "OPRA.PILLAR"}},
+    {"label": "development-condition", "method": "metadata.get_dataset_condition", "params": {"dataset": "OPRA.PILLAR", "start_date": "2024-01-01", "end_date": "2025-12-31"}},
+    {"label": "minute-quote-fields", "method": "metadata.list_fields", "params": {"dataset": "OPRA.PILLAR", "schema": "cbbo-1m", "encoding": "json"}},
+    {"label": "definition-fields", "method": "metadata.list_fields", "params": {"dataset": "OPRA.PILLAR", "schema": "definition", "encoding": "json"}},
+    {"label": "statistics-fields", "method": "metadata.list_fields", "params": {"dataset": "OPRA.PILLAR", "schema": "statistics", "encoding": "json"}},
+    {"label": "2024-contract-mapping", "method": "symbology.resolve", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL  240202C00185000", "stype_in": "raw_symbol", "stype_out": "instrument_id", "start_date": "2024-01-02", "end_date": "2024-01-03"}},
+    {"label": "2025-contract-mapping", "method": "symbology.resolve", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL  260102C00275000", "stype_in": "raw_symbol", "stype_out": "instrument_id", "start_date": "2025-12-01", "end_date": "2025-12-02"}},
+    {"label": "2024-AAPL-close-quote-cost", "method": "metadata.get_cost", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL.OPT", "stype_in": "parent", "schema": "cbbo-1m", "start": "2024-01-02T20:50:00Z", "end": "2024-01-02T21:00:00Z"}},
+    {"label": "2024-AAPL-close-quote-count", "method": "metadata.get_record_count", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL.OPT", "stype_in": "parent", "schema": "cbbo-1m", "start": "2024-01-02T20:50:00Z", "end": "2024-01-02T21:00:00Z"}},
+    {"label": "2024-AAPL-close-quote-size", "method": "metadata.get_billable_size", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL.OPT", "stype_in": "parent", "schema": "cbbo-1m", "start": "2024-01-02T20:50:00Z", "end": "2024-01-02T21:00:00Z"}},
+    {"label": "2025-AAPL-close-quote-cost", "method": "metadata.get_cost", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL.OPT", "stype_in": "parent", "schema": "cbbo-1m", "start": "2025-12-01T20:50:00Z", "end": "2025-12-01T21:00:00Z"}},
+    {"label": "2024-AAPL-definition-cost", "method": "metadata.get_cost", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL.OPT", "stype_in": "parent", "schema": "definition", "start": "2024-01-02T00:00:00Z", "end": "2024-01-03T00:00:00Z"}},
+    {"label": "2024-AAPL-open-interest-cost", "method": "metadata.get_cost", "params": {"dataset": "OPRA.PILLAR", "symbols": "AAPL.OPT", "stype_in": "parent", "schema": "statistics", "start": "2024-01-02T00:00:00Z", "end": "2024-01-03T00:00:00Z"}}
+  ],
+  "massive_quote_probes": [
+    {"date": "2024-01-02", "ticker": "O:AAPL240202C00185000"},
+    {"date": "2025-12-01", "ticker": "O:AAPL260102C00275000"}
+  ]
+}

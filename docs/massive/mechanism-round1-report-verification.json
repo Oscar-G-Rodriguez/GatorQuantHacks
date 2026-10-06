@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-03T22:08:18.980811+00:00",
+  "main_pages": 5,
+  "reference_pages": 2,
+  "minimum_rendered_font_points": 11.0,
+  "page_size_points": [
+    612,
+    792
+  ],
+  "margins_points": 72,
+  "eight_sections_present": true,
+  "headline_rows_match_returned_metrics": 6,
+  "portable_reproduction_text_equal": true,
+  "all_pages_visually_reviewed": true,
+  "pdf_sha256": "913f56250851dc32cee519b2cb1c0ca3f12de6987190fa6c5a588b29b1bf771a",
+  "repository_ledger_records": 18714,
+  "rendered_page_equality": [
+    {
+      "page": 1,
+      "visually_reviewed": true,
+      "same_as_portable_reproduction": true,
+      "png_sha256": "2087017fcedbd1219478b1c9e145d65126646616619adc539dd0d1051a5e143d"
+    },
+    {
+      "page": 2,
+      "visually_reviewed": true,
+      "same_as_portable_reproduction": true,
+      "png_sha256": "b800ba49148719bd246d170668998125516e17f3f30907cbe43817d7838e19ec"
+    },
+    {
+      "page": 3,
+      "visually_reviewed": true,
+      "same_as_portable_reproduction": true,
+      "png_sha256": "db395d78b6fab147e2a33982f984bcacd1c0f3b2df0bb77a899ae8a6cfd7396b"
+    },
+    {
+      "page": 4,
+      "visually_reviewed": true,
+      "same_as_portable_reproduction": true,
+      "png_sha256": "31754315d914580fd4e5652cc547fce339c96beef8e768b9d7095f34fb1667de"
+    },
+    {
+      "page": 5,
+      "visually_reviewed": true,
+      "same_as_portable_reproduction": true,
+      "png_sha256": "19ae736602d0c72b10b8cccf94df67790d80f3f55b3e14b5969b29392f2df3ec"
+    },
+    {
+      "page": 6,
+      "visually_reviewed": true,
+      "same_as_portable_reproduction": true,
+      "png_sha256": "30c9221591600647b18094f446f4e554a19dd9b476aebd832e095d78bad95ac8"
+    },
+    {
+      "page": 7,
+      "visually_reviewed": true,
+      "same_as_portable_reproduction": true,
+      "png_sha256": "eede5b4c4eb5266dcf66a738cd57809cac951b4442e1241941adc399b8b0b263"
+    }
+  ],
+  "derived_evidence_sha256": "7f110673925a22c99588e16e76d6de679df840c8ec7deeed8ac31cdc57208b66"
+}

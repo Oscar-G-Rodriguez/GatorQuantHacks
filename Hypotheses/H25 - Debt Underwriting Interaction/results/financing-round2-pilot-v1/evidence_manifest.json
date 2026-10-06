@@ -1,0 +1,151 @@
+{
+  "study": "H25",
+  "scope": "pilot",
+  "registration_commit": "b4159e2917248d588072ef5d9ae55bd88c3f8063",
+  "code_commit": "51331e7f24dd23397a6504de7407c4c8d239c060",
+  "manifest_id": "2f1dc336455036a3b2ca09ae38f44b90df2d59a6e83ed4ec76d4144ce46f5740",
+  "archive_sha256": "a923f46a7dfc33d6bda51c183c0b93de0a99596ef2b9b9a78eaaf5ebb76dda90",
+  "archive_members": 177,
+  "import_verified_at": "2026-10-04T14:44:48.118957+00:00",
+  "copied_members": {
+    "attribution.csv": {
+      "source_relative": "results/H25/attribution.csv",
+      "sha256": "39c453c0bdf21231d95a2061cddab0908cccc41ac44317e809ac7f98f66e45f7"
+    },
+    "baseline_comparison.csv": {
+      "source_relative": "results/H25/baseline_comparison.csv",
+      "sha256": "d0aa0f480ffef9375e4abf4d322e5314896b85aa1c4d911ef0b20c62867cde7c"
+    },
+    "coverage.csv": {
+      "source_relative": "results/H25/coverage.csv",
+      "sha256": "a1e16a406b639ae5705842969ee6fff734d1e62ad745245684ebcc6bb5a25ff6"
+    },
+    "performance.csv": {
+      "source_relative": "results/H25/performance.csv",
+      "sha256": "f8ea28029ed951e816e3d80540afe1b50bfe36944ce9b19cb503d61fb72f219a"
+    },
+    "quote_baseline_comparison.csv": {
+      "source_relative": "results/H25/quote_baseline_comparison.csv",
+      "sha256": "7d933a743067302cfabb79ad341c260e60961edd2bf345653da0cf38e02d5383"
+    },
+    "robustness.csv": {
+      "source_relative": "results/H25/robustness.csv",
+      "sha256": "ed77a5ebe3c476370e820ac41dc254da5a21c31781d03d4360a53a8d293fee1a"
+    },
+    "signal_diagnostics.csv": {
+      "source_relative": "results/H25/signal_diagnostics.csv",
+      "sha256": "7c256ebd2a324e0f8b86a411568a782a71b0b70639f63f1ef07343efcafc3326"
+    },
+    "summary.json": {
+      "source_relative": "results/H25/summary.json",
+      "sha256": "1cfe25c41bca83648857e3beb01a439f68e103dfea635507482c58aa02f876ba"
+    },
+    "summary.md": {
+      "source_relative": "results/H25/summary.md",
+      "sha256": "00feceb25d97fc6b96030fc2d8835b66a0380d1c5612b407f1e6039a376556a8"
+    },
+    "validation_checks.json": {
+      "source_relative": "results/H25/validation_checks.json",
+      "sha256": "f3143138ace0bf779f58ed6728057b53d44ef37287ee55a3269a42715b98b37e"
+    },
+    "tasks/2/coverage.csv": {
+      "source_relative": "results/tasks/2/coverage.csv",
+      "sha256": "a1c21b809e1c275f6898411a89c5b50f70a6ed0df63d4dc6b29e8d5534f0e678"
+    },
+    "tasks/2/nav.csv": {
+      "source_relative": "results/tasks/2/nav.csv",
+      "sha256": "6c09ff01c6bd58241f0141f46e2414558560e2b2b98dd6e4610f38d883bc3584"
+    },
+    "tasks/2/signal_diagnostics.csv": {
+      "source_relative": "results/tasks/2/signal_diagnostics.csv",
+      "sha256": "55e9e3a7e034f1045124e9dd90c02735d2e8934f544b3129dab963990c8fad5b"
+    },
+    "tasks/2/task.json": {
+      "source_relative": "results/tasks/2/task.json",
+      "sha256": "436bec18c2b9fd3046e01805b061a21b35847a593ec9c6d8660eacd73658d174"
+    },
+    "tasks/2/trades.csv": {
+      "source_relative": "results/tasks/2/trades.csv",
+      "sha256": "55e9e3a7e034f1045124e9dd90c02735d2e8934f544b3129dab963990c8fad5b"
+    },
+    "receipts/task-2.json": {
+      "source_relative": "receipts/task-2.json",
+      "sha256": "322764aa7f4fafecc7e3a879486fe167f55948124b19b978e2c1f725f507e4fd"
+    },
+    "receipts/analysis.json": {
+      "source_relative": "receipts/analysis.json",
+      "sha256": "76faffe93ef3c3bc7d84d1e836e81242a235d693d2a90db77b563fc0dde13500"
+    },
+    "receipts/calibration.json": {
+      "source_relative": "receipts/calibration.json",
+      "sha256": "1390ddfddd48cf27339009a81600e4828010fd617c4e41ad3fc654a597611d4c"
+    },
+    "provenance/manifest.json": {
+      "source_relative": "manifest.json",
+      "sha256": "be3584288609abc673c000b620594812ce4d1ea691f637c5ed71485a504e8968"
+    },
+    "provenance/return.json": {
+      "source_relative": "return.json",
+      "sha256": "24fda6245a8a07729bb30771aa8e5d07b43298ef45d299a1ec8d8b90da41f57b"
+    },
+    "provenance/import-receipt.json": {
+      "source_relative": "import-receipt.json",
+      "sha256": "837d23d11b376d0905de5f6b1faeb324652579fb004cb9a50384362390eecf53"
+    },
+    "provenance/scheduler-observation.json": {
+      "source_relative": "scheduler-observation.json",
+      "sha256": "15fe18347a71a36b7d45052167ca42abf0d06e29bc9dc60d56cc9705ac782b94"
+    },
+    "provenance/tasks.json": {
+      "source_relative": "tasks.json",
+      "sha256": "11767e456a0470af6abff47f513990205c063f813b45d1a9e2d3a6e96a475a89"
+    },
+    "joint/summary.json": {
+      "source_relative": "results/joint/summary.json",
+      "sha256": "e9f80fa10f5638fcd16b7d611be86d853e8cdade5ec95958fc4946c305eafe7d"
+    },
+    "joint/calibration_gate.json": {
+      "source_relative": "results/joint/calibration_gate.json",
+      "sha256": "76a960dfebf98545ffd8fb6155c20c8b265d100f2b4ab6b09187635f9a8549d6"
+    },
+    "joint/primary_family.csv": {
+      "source_relative": "results/joint/primary_family.csv",
+      "sha256": "d97cd8877ab459c9494ecd427004e33469beaa8eb92d02adf125174d4784761a"
+    },
+    "joint/task_status.csv": {
+      "source_relative": "results/joint/task_status.csv",
+      "sha256": "756027a63ee3055f220af8a16da24d9267a2298dcf7b5d6902927fa21d1eb446"
+    },
+    "joint/timing_placebo_trials.csv": {
+      "source_relative": "results/joint/timing_placebo_trials.csv",
+      "sha256": "6f69875d43491849559dc7d156ea16b80e79f4473b273e219b59fcb0614ab306"
+    },
+    "joint/timing_placebo_comparison.csv": {
+      "source_relative": "results/joint/timing_placebo_comparison.csv",
+      "sha256": "693ac5417c59a30affe1c237c6de2a05234fb6c215db92e46bcaeef778dbf180"
+    },
+    "joint/dependencies.json": {
+      "source_relative": "results/joint/dependencies.json",
+      "sha256": "8cdf4896d8038e0741829f4f1a584f9443390e208f9519067f3ba2c70a38a22f"
+    },
+    "calibration/summary.json": {
+      "source_relative": "results/calibration/summary.json",
+      "sha256": "76a960dfebf98545ffd8fb6155c20c8b265d100f2b4ab6b09187635f9a8549d6"
+    },
+    "prepared/coverage.csv": {
+      "source_relative": "prepared/coverage.csv",
+      "sha256": "3f6e3833e102599df0b144b0862b2700cc483285b7ce06aa9b2ba94b3d3efaf7"
+    },
+    "prepared/exclusions.csv": {
+      "source_relative": "prepared/exclusions.csv",
+      "sha256": "ec81da8cc102ae35f09edc07696a654c76454f8848c890923515581b845b2fd9"
+    },
+    "prepared/summary.json": {
+      "source_relative": "prepared/summary.json",
+      "sha256": "66889bdd725f7c2497b46e9a16e4a5d452d79dbb19ef0885cb12d4e5d5710a3b"
+    }
+  },
+  "copied_bytes": 4198805,
+  "verdict": "INCONCLUSIVE; UNSUPPORTED_FOR_CONFIRMATORY_CLAIM",
+  "policy": "Derived results and receipts only; no raw provider objects, excerpts or credentials copied"
+}

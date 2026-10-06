@@ -1,0 +1,19 @@
+{
+  "manifest_id": "2f1dc336455036a3b2ca09ae38f44b90df2d59a6e83ed4ec76d4144ce46f5740",
+  "dependency_id": "36e274bfbc43ea88d6b812a1525ffdd0ba02f52b8d399ca04ca3160980b51c14",
+  "scope": "pilot",
+  "planned_full_tasks": 33,
+  "scoped_tasks": 4,
+  "completed_tasks": 4,
+  "primary_family_size": 19,
+  "draws_per_block": 9999,
+  "blocks": [
+    63,
+    126
+  ],
+  "calibration_status": "fail",
+  "timing_placebos_planned": 199,
+  "timing_placebos_completed": 0,
+  "fresh_final_oos_available": false,
+  "verdict": "UNSUPPORTED_FOR_CONFIRMATORY_CLAIM"
+}

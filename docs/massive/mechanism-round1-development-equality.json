@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-03T21:45:22.526130+00:00",
+  "original_manifest": "046db5f7b15d181ade994877548abdc27190946824a877662b3fbf4bc08fc5ea",
+  "corrected_manifest": "5207f92c6a2f22ee12e936a2540724842245f65a35fd90ce168900f6cd193fbd",
+  "method": "Byte equality of all output files except run identity/attempt; findings and summary normalize only manifest identity. No fit/replay on PC.",
+  "equal": true,
+  "compared_files": 45,
+  "per_study": {
+    "H18": {
+      "trial-cells.csv": true,
+      "closed_trades.csv": true,
+      "summary.md": true,
+      "horizon_comparison.csv": true,
+      "baseline_comparison.csv": true,
+      "validation_checks.json": true,
+      "signal_diagnostics.csv": true,
+      "prediction-model.json": true,
+      "robustness.csv": true,
+      "metrics.csv": true,
+      "findings.json": true,
+      "equity_curves.csv": true,
+      "capacity.csv": true,
+      "execution_audit.json": true,
+      "prediction_folds.csv": true
+    },
+    "H19": {
+      "findings.json": true,
+      "horizon_comparison.csv": true,
+      "prediction-model.json": true,
+      "prediction_folds.csv": true,
+      "closed_trades.csv": true,
+      "summary.md": true,
+      "signal_diagnostics.csv": true,
+      "robustness.csv": true,
+      "execution_audit.json": true,
+      "trial-cells.csv": true,
+      "capacity.csv": true,
+      "baseline_comparison.csv": true,
+      "equity_curves.csv": true,
+      "metrics.csv": true,
+      "validation_checks.json": true
+    },
+    "H20": {
+      "findings.json": true,
+      "horizon_comparison.csv": true,
+      "prediction-model.json": true,
+      "prediction_folds.csv": true,
+      "closed_trades.csv": true,
+      "summary.md": true,
+      "signal_diagnostics.csv": true,
+      "robustness.csv": true,
+      "execution_audit.json": true,
+      "trial-cells.csv": true,
+      "capacity.csv": true,
+      "baseline_comparison.csv": true,
+      "equity_curves.csv": true,
+      "metrics.csv": true,
+      "validation_checks.json": true
+    }
+  }
+}

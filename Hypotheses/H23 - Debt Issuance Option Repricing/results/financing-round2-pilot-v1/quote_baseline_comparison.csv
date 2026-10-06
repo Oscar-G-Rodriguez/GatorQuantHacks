@@ -1,0 +1,6 @@
+comparator,effect_id,estimate,excluded_pairs,horizon,issuers,metric,pairs,reason,reused_controls,shape,status,study,support,threshold,variant,year
+ordinary,H23:overlay_increment:ordinary,,16,10,0,overlay_increment,0,registered_pair_or_issuer_floor,0,covered_call,insufficient_support,H23,False,0.001,primary,all
+ordinary,H23:strategy_increment:ordinary,,16,10,0,strategy_increment,0,registered_pair_or_issuer_floor,0,covered_call,insufficient_support,H23,False,0.0,primary,all
+ordinary,H23:hedge_increment:ordinary,,16,10,0,hedge_increment,0,registered_pair_or_issuer_floor,0,protective_put,insufficient_support,H23,False,0.0,primary,all
+ordinary,H23:event_downside_reduction:ordinary,,16,10,0,event_downside_reduction,0,registered_pair_or_issuer_floor,0,protective_put,insufficient_support,H23,False,0.0025,primary,all
+ordinary,H23:event_return_drag:ordinary,0.0006692160611854701,15,10,1,event_return_drag,1,registered_pair_or_issuer_floor,0,protective_put,insufficient_support,H23,False,-0.005,primary,all

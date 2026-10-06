@@ -1,0 +1,223 @@
+% Gator Quant Hacks: paper outline and preliminary sources, 2026-10-03.
+% Research sections remain headings only. References and preparation credits
+% are entered; no hypothesis, authors, research prose or results are selected.
+%
+% Main-track requirements, freshly checked in the browser on 2026-10-03:
+%   - At least 11-point type and standard margins.
+%   - At most five main pages, INCLUDING figures and tables.
+%   - References and an optional appendix are outside the main five-page limit.
+%   - Decisive evidence belongs in the main pages.
+% https://www.gqhacks.com/tracks/systematic-trading (CH08: Quant Note)
+% https://www.gqhacks.com/tracks/systematic-trading/massive (CH06: Judging)
+% Local references: ../docs/WEBULL_RULES.md and ../docs/QUANT_NOTE_TEMPLATE.md.
+% US Letter and one-inch margins are chosen standard defaults; the reviewed
+% rules do not prescribe an exact paper size or numerical margin width.
+%
+% UNRESOLVED MASSIVE LIMIT: the current sponsor page and supplied judging
+% screenshot say five pages; starter notebook cell 4 says a two-page write-up.
+% Keep this distinction until clarified. The typography below fits either
+% length; it does not claim the artifact relationship has been resolved.
+% Source: ../../Massive Track/Submission and Event Reference.md.
+
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs,tabularx}
+\usepackage[font=normalsize,labelfont=bf]{caption}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{1.5ex plus 0.5ex minus 0.2ex}{0.6ex}
+\titlespacing*{\subsection}{0pt}{1.2ex plus 0.3ex minus 0.2ex}{0.4ex}
+\pagestyle{plain}
+\urlstyle{same}
+
+\begin{document}
+
+% Insert title and verified team information later; no separate title page.
+% The eight top-level titles follow the main-track blueprint verbatim.
+% Subheadings are our mapping of the two tracks' requirements, not a separate
+% official sponsor outline. They do not select an economic hypothesis.
+
+\section{Summary}
+% Suggested main-track budget: 0.25 pages; all budgets are suggestions.
+
+\section{Economic Hypothesis}
+% Suggested budget: 0.50 pages. State the counterparty and persistence too.
+\subsection{Disclosure Category and Options Strategy}
+\subsection{Mispricing Mechanism and Testable Prediction}
+
+\section{Data \& Universe}
+% Suggested budget: 0.50 pages. Cite sources and explain coverage/selection.
+\subsection{8-K Events and Company Universe}
+\subsection{Historical Option Chains and Price Bars}
+
+\section{Methodology}
+% Suggested budget: 1.00 page. Distinguish prior announcements from filing.
+% Explain synthetic stock, expiry/strike selection and actual data timestamps.
+\subsection{Event Timing and Contract Selection}
+\subsection{Entry, Exit and Fixed Horizons}
+% Massive: 1, 2, 3, 5, 10, 21, 42, 63 sessions, plus expiry.
+% Separate diagnostic pre-entry from feasible post-disclosure entry.
+\subsection{Ordinary-Day Control and Uncertainty}
+\subsection{Study Windows and Sealed-Window Replay}
+% Massive's specified OOS and judge-only sealed window replace generic OOS.
+% This is the replay protocol, not a placeholder claim of sealed results.
+
+\section{Results}
+% Suggested budget: 1.25 pages. Report all fixed horizons and event counts.
+% Main track: return, volatility, Sharpe, drawdown, turnover and equity curve
+% in IS/OOS, net of costs. Do not invent metrics before evidence exists.
+\subsection{In-Sample and Out-of-Sample Results, Net of Costs}
+\subsection{Horizon Decay and Implied versus Realized Move}
+\subsection{Parameter Sensitivity}
+% Include expiry bucket, OTM distance, entry, horizon and category definition.
+
+\section{Risk Management}
+% Suggested budget: 0.50 pages.
+\subsection{Position Limits, Exposures and Options Risks}
+
+\section{Liquidity \& Capacity}
+% Suggested budget: 0.50 pages. Justify per-side/round-trip cost in bps,
+% leg-volume capacity, spread/impact assumptions and feasible sizing.
+\subsection{Execution Costs, Leg Liquidity and Capacity}
+
+\section{Limitations \& Next Steps}
+% Suggested budget: 0.50 pages.
+\subsection{Failure Conditions and Remaining Limitations}
+
+\section*{Credits}
+Preparation draws on the Gator Quant Hacks and Massive data team's 8-K
+options starter \cite{massive-starter}, the organizer's Webull/Backtrader
+starter \cite{webull-starter}, and The Options Playbook's strategy
+descriptions \cite{options-playbook}. OpenAI Codex assisted with source
+research, documentation and LaTeX preparation. The team is responsible for
+the final code and claims. Detailed software and source provenance is
+recorded in the repository's \texttt{REFERENCES\_AND\_CREDITS.md}.
+% Conservatively count credits within the main-page budget.
+
+% Main-text page count ends HERE, after decisive evidence and credits.
+\clearpage
+% This working list records relevant preparation sources. Match entries to
+% final in-text claims/methods and remove unused entries before submission.
+% The full cross-chat source inventory remains in SOURCE_INVENTORY.csv.
+\begin{thebibliography}{99}
+\bibitem{systematic-track}
+Gator Quant Hacks.
+\href{https://www.gqhacks.com/tracks/systematic-trading}
+{\emph{Systematic Trading track}}. Rules and quant-note blueprint.
+
+\bibitem{massive-track}
+Gator Quant Hacks and Massive.
+\href{https://www.gqhacks.com/tracks/systematic-trading/massive}
+{\emph{Did the options market see it coming?}} Massive challenge brief.
+
+\bibitem{massive-starter}
+Gator Quant Hacks and Massive data team.
+\href{https://www.gqhacks.com/massive/gqh-massive-8k-starter-kit.zip}
+{\emph{Massive 8-K options starter kit}}.
+Retained version inspected October 2--3, 2026.
+
+\bibitem{webull-starter}
+Gator Quant Hacks.
+\href{https://www.gqhacks.com/webull/gqh-webull-backtrader-starter.zip}
+{\emph{Webull/Backtrader starter kit}}.
+Upstream integration, examples and sample report.
+
+\bibitem{disclosures}
+Massive.
+\href{https://massive.com/docs/rest/stocks/filings/8-k-disclosures}
+{\emph{8-K Disclosures}}. Stocks REST API documentation.
+
+\bibitem{taxonomy}
+Massive.
+\href{https://massive.com/docs/rest/stocks/filings/disclosure-categories}
+{\emph{Disclosure Categories}}. Taxonomy documentation.
+
+\bibitem{contracts}
+Massive.
+\href{https://massive.com/docs/rest/options/contracts/all-contracts}
+{\emph{All Contracts}}. Options REST API documentation.
+
+\bibitem{option-bars}
+Massive.
+\href{https://massive.com/docs/rest/options/aggregates/custom-bars}
+{\emph{Custom Bars (OHLC)}}. Options REST API documentation.
+
+\bibitem{tagging}
+Massive (July 22, 2026).
+\href{https://www.massive.com/blog/tagging-8-k-disclosures-with-ai-corporate-events-labelled-by-what-actually-happened}
+{\emph{Tagging 8-K disclosures with AI: corporate events, labelled by what actually happened}}.
+
+\bibitem{options-playbook}
+The Options Playbook.
+\href{https://www.optionsplaybook.com/option-strategies}
+{\emph{Option Trading Strategies}}. Strategy definitions and payoff reference.
+
+\bibitem{white}
+White, H. (2000).
+\href{https://www.ssc.wisc.edu/~bhansen/718/White2000.pdf}
+{\emph{A Reality Check for Data Snooping}}.
+Econometrica, 68(5), 1097--1126.
+
+\bibitem{dsr}
+Bailey, D. H., and L\'opez de Prado, M. (2014).
+\href{https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf}
+{\emph{The Deflated Sharpe Ratio: Correcting for Selection Bias,
+Backtest Overfitting and Non-Normality}}. July 31, 2014 version.
+
+\bibitem{factor-search}
+Harvey, C. R., Liu, Y., and Zhu, H. (2014).
+\href{https://www.nber.org/papers/w20592}
+{\emph{\ldots\ and the Cross-Section of Expected Returns}}.
+NBER Working Paper 20592.
+
+\bibitem{dependent-independence}
+Chwialkowski, K., and Gretton, A. (2014).
+\href{https://proceedings.mlr.press/v32/chwialkowski14.html}
+{\emph{A Kernel Independence Test for Random Processes}}.
+Proceedings of the 31st International Conference on Machine Learning,
+PMLR 32(2), 1422--1430.
+
+\bibitem{block-bootstrap}
+arch documentation.
+\href{https://arch.readthedocs.io/en/stable/bootstrap/timeseries-bootstraps.html}
+{\emph{Time-series Bootstraps}}. Method reference.
+
+\bibitem{time-split}
+scikit-learn documentation.
+\href{https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html}
+{\emph{TimeSeriesSplit}}. Chronological validation reference.
+
+\bibitem{multiple-tests}
+statsmodels documentation.
+\href{https://www.statsmodels.org/stable/generated/statsmodels.stats.multitest.multipletests.html}
+{\emph{multipletests}}. Multiple-comparison reference.
+
+\bibitem{french-library}
+French, K. R.
+\href{https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html}
+{\emph{Data Library}}. Factor definitions and benchmark reference.
+\end{thebibliography}
+
+% The bibliography is preliminary; its presence does not assert that every
+% listed method/library was implemented or every dataset used in the study.
+% Optional appendix, outside the main limit; judges need not read it:
+% \clearpage
+% \appendix
+% \section{Supplementary Evidence}
+%
+% Do not shrink body/caption/table text below the required size to fit pages.
+% Scale later figures with their final readable text size in mind.
+
+\end{document}
